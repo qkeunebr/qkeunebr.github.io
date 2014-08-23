@@ -50,7 +50,6 @@ a {
 a:active,
 a:hover {
   outline: 0;
-  background-color:#dd4814;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -291,12 +290,12 @@ textarea {
   margin-top:12px;
 }
 a {
-  color: #97D17A;
+  color: #FFE019;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #FFE019;
+  color: #97D17A;
 }
 a:focus {
   outline: thin dotted;
