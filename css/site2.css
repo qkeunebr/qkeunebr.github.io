@@ -290,12 +290,12 @@ textarea {
   margin-top:12px;
 }
 a {
-  color: #FFE019;
+  color: #97D17A;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #97D17A;
+  color: #FFE019;
 }
 a:focus {
   outline: thin dotted;
