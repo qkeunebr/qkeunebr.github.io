@@ -1147,7 +1147,7 @@ pre code {
     width: 50%;
   }
   .col-md-4 {
-    width: 30%;
+    width: 20%;
   }
   .col-md-3 {
     width: 25%;
@@ -6038,5 +6038,11 @@ clear:left;
 
 .couleur{
   color:#FFE019;
+}
+
+.photos{
+   margin-left: auto;
+  margin-right: auto;
+  width: 30px;
 }
 
