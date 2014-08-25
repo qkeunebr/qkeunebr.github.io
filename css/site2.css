@@ -5936,11 +5936,12 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
  display: inline-block;
  background-color: #3D3D3D;
  color: rgba(255, 255, 255, 0.9);
- padding-left:15px;
- padding-right:15px;
- padding-bottom:15px;
- width:300px;
+ padding-left:10px;
+ padding-right:10px;
+ padding-bottom:10px;
+ width:310px;
  text-align:left;
+ padding-top:15px;
 }
 
 
