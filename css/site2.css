@@ -6009,7 +6009,6 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
  }   
   
 .thumb a img { 
- margin:0;
  padding:2px;
  width:150px;
  height:125px; 
@@ -6042,6 +6041,6 @@ clear:left;
 .photos{
    margin-left: auto;
   margin-right: auto;
-    width:100%;
+    width:2000px;
 }
 
