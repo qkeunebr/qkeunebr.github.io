@@ -5907,7 +5907,7 @@ background-size: 100% 100%;
   }
 
 .aside{
- margin-left:20px;
+ margin-left:30px;
  border: solid 2px #3D3D3D;
  display: inline-block;
  background-color: #3D3D3D;
@@ -5915,6 +5915,7 @@ background-size: 100% 100%;
  padding-left:15px;
  padding-right:15px;
  padding-bottom:15px;
+ width:100px;
 }
 
 #bulle {position: relative;
