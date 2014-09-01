@@ -6054,7 +6054,7 @@ clear:left;
   .navbar-default
     {
         width: auto;
-        height:100px;
+        font-size:30px;
     }
     
     nav li
@@ -6076,7 +6076,7 @@ clear:left;
     {
         width: auto;
         display: block;
-        size:15px;
+        font-size:5px;
     }
     
     #bulle
@@ -6087,6 +6087,10 @@ clear:left;
     aside p:last-child
     {
         text-align: center;
+    }
+
+    .thumb{
+      width:auto;
     }
 
 }
