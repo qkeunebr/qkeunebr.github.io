@@ -6052,11 +6052,8 @@ clear:left;
 {
 
   .navbar-default{
-    width: auto;
-        font-size:35px;
-        height:55px;
-        margin:auto;
-        margin-left:0;
+        font-size:30px;
+        height:50px;
     } 
     .navbar-header
     {
@@ -6079,9 +6076,9 @@ clear:left;
     }
 
     aside, .asides{
-        display: block;
+      display:block;
         font-size:5px;
-        width:50px;
+        width:40px;
     }
 
     
