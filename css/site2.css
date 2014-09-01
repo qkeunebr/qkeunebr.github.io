@@ -5915,7 +5915,6 @@ background-size: 100% 100%;
  padding-left:15px;
  padding-right:15px;
  padding-bottom:15px;
- width:360px;
 }
 
 #bulle {position: relative;
@@ -6042,10 +6041,7 @@ clear:left;
 .photos{
    margin-left: auto;
   margin-right: auto;
-  vertical-align:middle;
-  position: relative;
-  display:inline-block;
-  margin-bottom:-115px;
+  width:1275px;
 }
 
 .active{
