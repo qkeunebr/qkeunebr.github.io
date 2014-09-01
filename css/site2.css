@@ -6048,13 +6048,13 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all and (max-width: 200px)
+@media all and (max-width: 300px)
 {
 
-  .navbar-brand{
+  .navbar-default{
     display:none;
     } 
-    .navbar-default
+    .navbar-brand
     {
         width: auto;
         font-size:40px;
