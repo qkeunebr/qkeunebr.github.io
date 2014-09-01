@@ -6048,21 +6048,26 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 900px)
 {
 
-  .navbar-default, .navbar-brand
+  .navbar-brand{
+    display:none;
+    } 
+    .navbar-default
     {
         width: auto;
-        font-size:30px;
+        font-size:40px;
         height:70px;
+        margin:auto;
     }
   .hero-unit{
     font-size:25px;
   }
 
   .btn{
-    font-size:50px;
+    font-size:40px;
+    margin:left:5px;
   }
     
     article
@@ -6078,6 +6083,11 @@ clear:left;
         font-size:5px;
         width:50px;
     }
+
+    aside,img{
+      margin:auto;
+
+    }
     
     #bulle
     {
@@ -6092,6 +6102,7 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
+      margin-bottom:-60px;
     }
 
 }
