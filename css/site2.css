@@ -6050,8 +6050,47 @@ clear:left;
 
 @media all and (max-width: 1024px)
 {
-    body
+
+  nav
     {
-        color:red;
+        width: auto;
+        text-align: left;
     }
+    
+    nav li
+    {
+        display: block;
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    article, aside, asides
+    {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    #bulle
+    {
+        display: none;
+    }
+    
+    aside p:last-child
+    {
+        text-align: center;
+    }
+    .hero-unit
+    {
+        display: none;
+    }
+
 }
