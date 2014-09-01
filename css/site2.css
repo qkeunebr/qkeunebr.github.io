@@ -5995,10 +5995,9 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
 .thumb {
  width:150px;
  height:125px; 
- margin:4.5px;
- float:left; 
+ margin:4.6px;
  background-color:#ffffff; 
- display:block;
+ float:left;
  } 
 
 .thumb a {
@@ -6043,6 +6042,10 @@ clear:left;
 .photos{
    margin-left: auto;
   margin-right: auto;
+  vertical-align:middle;
+  position: relative;
+  display:inline-block;
+  margin-bottom:-115px;
 }
 
 .active{
