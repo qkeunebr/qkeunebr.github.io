@@ -6051,11 +6051,22 @@ clear:left;
 @media all and (max-width: 1024px)
 {
 
-  .navbar-default
+  .navbar-default, .navbar-brand
     {
         width: auto;
-        font-size:30px;
+        font-size:40px;
+        height:70px;
     }
+  .hero-unit{
+    font-size:25px;
+  }
+
+  .btn{
+    font-size:30px;
+  }
+  body{
+    font-size:10px;
+  }
     
     nav li
     {
@@ -6072,11 +6083,18 @@ clear:left;
     {
         border-bottom: 0;
     }
-    article, aside, .asides
+    article
     {
         width: auto;
         display: block;
         font-size:5px;
+    }
+
+    aside, .asides{
+      width: auto;
+        display: block;
+        font-size:5px;
+        width:100px;
     }
     
     #bulle
@@ -6089,7 +6107,7 @@ clear:left;
         text-align: center;
     }
 
-    .thumb{
+    .photos{
       width:auto;
     }
 
