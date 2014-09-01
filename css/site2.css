@@ -6052,14 +6052,14 @@ clear:left;
 {
 
   .navbar-default{
-    display:none;
-    } 
-    .navbar-brand
-    {
-        width: auto;
+    width: auto;
         font-size:40px;
         height:70px;
         margin:auto;
+    } 
+    .navbar-header
+    {
+        display:none;
     }
   .hero-unit{
     font-size:25px;
