@@ -6048,7 +6048,7 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all and (max-width: 300px)
+@media all and (max-width: 600px)
 {
 
   .navbar-default{
