@@ -6051,10 +6051,10 @@ clear:left;
 @media all and (max-width: 1024px)
 {
 
-  nav
+  .navbar-default
     {
         width: auto;
-        text-align: left;
+        height:100px;
     }
     
     nav li
@@ -6072,11 +6072,11 @@ clear:left;
     {
         border-bottom: 0;
     }
-    article, aside, asides
+    article, aside, .asides
     {
         width: auto;
         display: block;
-        margin-bottom: 15px;
+        size:15px;
     }
     
     #bulle
@@ -6087,10 +6087,6 @@ clear:left;
     aside p:last-child
     {
         text-align: center;
-    }
-    .hero-unit
-    {
-        display: none;
     }
 
 }
