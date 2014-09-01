@@ -6053,9 +6053,10 @@ clear:left;
 
   .navbar-default{
     width: auto;
-        font-size:40px;
-        height:70px;
+        font-size:35px;
+        height:55px;
         margin:auto;
+        margin-left:0;
     } 
     .navbar-header
     {
@@ -6066,8 +6067,8 @@ clear:left;
   }
 
   .btn{
-    font-size:40px;
-    margin:left:5px;
+    font-size:25px;
+    margin-left:5px;
   }
     
     article
@@ -6078,16 +6079,11 @@ clear:left;
     }
 
     aside, .asides{
-      width: auto;
         display: block;
         font-size:5px;
         width:50px;
     }
 
-    aside,img{
-      margin:auto;
-
-    }
     
     #bulle
     {
@@ -6102,7 +6098,7 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-60px;
+      margin-bottom:-80px;
     }
 
 }
