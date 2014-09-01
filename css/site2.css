@@ -6054,7 +6054,7 @@ clear:left;
   .navbar-default, .navbar-brand
     {
         width: auto;
-        font-size:40px;
+        font-size:30px;
         height:70px;
     }
   .hero-unit{
@@ -6062,39 +6062,21 @@ clear:left;
   }
 
   .btn{
-    font-size:30px;
-  }
-  body{
-    font-size:10px;
+    font-size:50px;
   }
     
-    nav li
-    {
-        display: block;
-        padding-left: 4px;
-    }
-    
-    nav a
-    {
-        font-size: 1.1em;
-    }
-    
-    nav a:hover
-    {
-        border-bottom: 0;
-    }
     article
     {
         width: auto;
         display: block;
-        font-size:5px;
+        font-size:10px;
     }
 
     aside, .asides{
       width: auto;
         display: block;
         font-size:5px;
-        width:100px;
+        width:50px;
     }
     
     #bulle
@@ -6109,6 +6091,7 @@ clear:left;
 
     .photos{
       width:auto;
+      display:inline-block;
     }
 
 }
