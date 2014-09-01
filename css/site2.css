@@ -273,7 +273,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Roboto',sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: rgba(255, 255, 255, 0.9);
@@ -290,7 +290,7 @@ textarea {
   margin-top:12px;
 }
 a {
-  color: #97D17A;
+  color: #FFE019;
   text-decoration: none;
 }
 a:hover,
@@ -3856,6 +3856,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
+
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -4007,7 +4008,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #3D3D3D;
   border-color: #3D3D3D;
   margin-bottom:0;
-  font-family: 'Roboto',sans-serif;
+  font-family: Arial,sans-serif;
 
 }
 .navbar-default .navbar-brand {
@@ -4058,7 +4059,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
+.navbar-default .navbar-nav > .open > a:focus, {
   background-color: #ae3910;
   color: #ffffff;
 }
@@ -5914,6 +5915,7 @@ background-size: 100% 100%;
  padding-left:15px;
  padding-right:15px;
  padding-bottom:15px;
+ width:360px;
 }
 
 #bulle {position: relative;
@@ -6043,3 +6045,6 @@ clear:left;
   margin-right: auto;
 }
 
+.active{
+  background-color:#dd4814;
+}
