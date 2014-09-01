@@ -6047,3 +6047,11 @@ clear:left;
 .active{
   background-color:#dd4814;
 }
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        color:red;
+    }
+}
