@@ -6050,16 +6050,6 @@ clear:left;
 
 @media all and (max-width: 720px)
 {
-    aside, .asides
-    {
-      width:auto;
-    }
-
-    
-    #bulle
-    {
-        display: none;
-    }
 
     .photos{
       width:auto;
@@ -6073,7 +6063,7 @@ clear:left;
 
 }
 
-@media all and (min-width: 720px) and (max-width: 1024px)
+@media all and (min-width: 720px) and (max-width: 950px)
 {
    .photos{
       width:auto;
@@ -6083,11 +6073,6 @@ clear:left;
 
     .aside{
       display:none;
-    }
-
-     #bulle
-    {
-        display: none;
     }
 }
 
