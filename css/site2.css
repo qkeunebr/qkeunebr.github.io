@@ -6041,7 +6041,7 @@ clear:left;
 .photos{
    margin-left: auto;
   margin-right: auto;
-  width:auto;
+  width:1275px;
 }
 
 .active{
@@ -6064,7 +6064,7 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-80px;
+      margin-bottom:-120px;
     }
 
 }
@@ -6074,7 +6074,7 @@ clear:left;
    .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-80px;
+      margin-bottom:-120px;
     }
 }
 
