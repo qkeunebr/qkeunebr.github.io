@@ -6076,6 +6076,10 @@ clear:left;
       display:inline-block;
       margin-bottom:-120px;
     }
+
+    .aside{
+      width:50px;
+    }
 }
 
 
