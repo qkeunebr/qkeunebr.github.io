@@ -6072,7 +6072,7 @@ clear:left;
 
 }
 
-@media all and (min-width: 720px) and (max-width: 900px)
+@media all and (min-width: 720px) and (max-width: 1024px)
 {
    .photos{
       width:auto;
@@ -6086,8 +6086,12 @@ clear:left;
     }
 
     .btn{
-      width:20px;
+      width:70px;
       margin-left:5px;
+    }
+
+    .navbar-brand{
+      display:none;
     }
 }
 
