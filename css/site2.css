@@ -6061,8 +6061,8 @@ clear:left;
     }
 
     .btn{
-      width:200px;
-      margin-left:5px;
+      height:40px;
+      font-size:20px;
     }
 
     .asides{
