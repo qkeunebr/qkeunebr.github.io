@@ -6067,6 +6067,11 @@ clear:left;
       margin-bottom:-120px;
     }
 
+    .aside{
+      width:100px;
+      font-size:10px;
+    }
+
 }
 
 @media all and (min-width: 720px) and (max-width: 1024px)
@@ -6078,7 +6083,13 @@ clear:left;
     }
 
     .aside{
-      width:50px;
+      width:200px;
+      font-size:15px;
+    }
+
+     #bulle
+    {
+        display: none;
     }
 }
 
