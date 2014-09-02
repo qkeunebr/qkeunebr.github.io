@@ -6054,7 +6054,7 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-120px;
+      margin-bottom:-140px;
     }
 
     .aside{
@@ -6062,7 +6062,7 @@ clear:left;
     }
 
     .btn{
-      width:100px;
+      width:200px;
       margin-left:5px;
     }
 
@@ -6076,6 +6076,10 @@ clear:left;
 
     #bulle{
       display:none;
+    }
+
+    .navbar-default{
+      height:300px;
     }
 
 }
@@ -6095,6 +6099,23 @@ clear:left;
 
     #bulle{
       display:none;
+    }
+
+    body{
+      font-size:20px;
+    }
+
+    p{
+      font-size:18px;
+    }
+
+    .asides{
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    footer{
+      margin-bottom:0;
     }
 
 }
