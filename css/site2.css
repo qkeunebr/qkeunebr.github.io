@@ -5873,7 +5873,6 @@ button.close {
 .hero-unit{
   padding: 70px;
   margin-bottom: 30px;
-  margin-top:-10px;
   background-image: url(../images/bedoin.jpg); 
 background-position: center;
 background-repeat: no-repeat; 
@@ -6054,7 +6053,7 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-140px;
+      margin-bottom:-120px;
     }
 
     .aside{
@@ -6070,16 +6069,8 @@ clear:left;
       width:500px;
     }
 
-    .navbar-brand{
-      display:none;
-    }
-
     #bulle{
       display:none;
-    }
-
-    .navbar-default{
-      height:300px;
     }
 
 }
