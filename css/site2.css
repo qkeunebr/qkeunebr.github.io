@@ -5873,6 +5873,7 @@ button.close {
 .hero-unit{
   padding: 70px;
   margin-bottom: 30px;
+  margin-top:-10px;
   background-image: url(../images/bedoin.jpg); 
 background-position: center;
 background-repeat: no-repeat; 
@@ -5949,7 +5950,6 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
   margin-left:20px;
   font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.42857143;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom:15px;
 }
