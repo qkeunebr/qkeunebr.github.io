@@ -6063,7 +6063,7 @@ clear:left;
 
 }
 
-@media all and (min-width: 720px) and (max-width: 950px)
+@media all and (min-width: 720px) and (max-width: 900px)
 {
    .photos{
       width:auto;
