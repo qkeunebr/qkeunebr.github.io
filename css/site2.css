@@ -6051,29 +6051,6 @@ clear:left;
 @media all and (max-width: 600px)
 {
 
-  .navbar-default{
-        font-size:30px;
-        height:50px;
-    } 
-    .navbar-header
-    {
-        display:none;
-    }
-  .hero-unit{
-    font-size:25px;
-  }
-
-  .btn{
-    font-size:25px;
-    margin-left:5px;
-  }
-    
-    article
-    {
-        width: auto;
-        display: block;
-        font-size:10px;
-    }
 
     aside, .asides{
       display:block;
@@ -6085,11 +6062,6 @@ clear:left;
     #bulle
     {
         display: none;
-    }
-    
-    aside p:last-child
-    {
-        text-align: center;
     }
 
     .photos{
