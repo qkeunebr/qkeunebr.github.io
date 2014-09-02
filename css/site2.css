@@ -6068,8 +6068,7 @@ clear:left;
     }
 
     .aside{
-      width:100px;
-      font-size:10px;
+      display:none;
     }
 
 }
@@ -6083,8 +6082,7 @@ clear:left;
     }
 
     .aside{
-      width:200px;
-      font-size:15px;
+      display:none;
     }
 
      #bulle
