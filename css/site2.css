@@ -6054,7 +6054,7 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-130px;
+      margin-bottom:-120px;
     }
 
     .aside{
@@ -6066,26 +6066,26 @@ clear:left;
       margin-left:5px;
     }
 
-    .aside2{
-      width:700px;
+    .asides{
+      width:500px;
     }
 
     .navbar-brand{
       display:none;
     }
 
-    .navbar-default{
-      font-size:50px;
+    #bulle{
+      display:none;
     }
 
 }
 
-@media all and (min-width: 750px) and (max-width: 970px)
+@media all and (min-width: 750px) and (max-width: 990px)
 {
    .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-130px;
+      margin-bottom:-120px;
     }
 
     .aside{
@@ -6093,10 +6093,9 @@ clear:left;
       width:400px;
     }
 
-    .asides{
-      width:500px;
+    #bulle{
+      display:none;
     }
-
 
 }
 
