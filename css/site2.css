@@ -6054,11 +6054,20 @@ clear:left;
     .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-120px;
+      margin-bottom:-140px;
     }
 
     .aside{
       display:none;
+    }
+
+    .btn{
+      width:20px;
+      margin-left:5px;
+    }
+
+    .aside2{
+      width:500px;
     }
 
 }
@@ -6068,11 +6077,17 @@ clear:left;
    .photos{
       width:auto;
       display:inline-block;
-      margin-bottom:-120px;
+      margin-bottom:-140px;
     }
 
     .aside{
       display:none;
+      width:400px;
+    }
+
+    .btn{
+      width:20px;
+      margin-left:5px;
     }
 }
 
