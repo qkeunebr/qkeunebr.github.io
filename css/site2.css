@@ -6048,14 +6048,11 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all and (max-width: 600px)
+@media all and (max-width: 720px)
 {
-
-
-    aside, .asides{
-      display:block;
-        font-size:5px;
-        width:40px;
+    aside, .asides
+    {
+      width:auto;
     }
 
     
