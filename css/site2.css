@@ -6051,9 +6051,7 @@ clear:left;
 {
 
     .photos{
-      width:auto;
-      display:inline-block;
-      margin-bottom:-120px;
+      display:none;
     }
 
     .aside{
@@ -6071,6 +6069,10 @@ clear:left;
 
     #bulle{
       display:none;
+    }
+
+    .aside{
+      background-image: url(../images/moi.jpg);
     }
 
 }
