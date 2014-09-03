@@ -6047,33 +6047,7 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all and (max-width: 750px)
-{
-
-    .photos{
-      display:none;
-    }
-
-    .aside{
-      display:none;
-    }
-
-    .btn{
-      height:40px;
-      font-size:20px;
-    }
-
-    .asides{
-      width:500px;
-    }
-
-    #bulle{
-      display:none;
-    }
-
-}
-
-@media all and (min-width: 750px) and (max-width: 990px)
+@media all and (min-width: 600px) and (max-width: 990px)
 {
    .photos{
       width:auto;
