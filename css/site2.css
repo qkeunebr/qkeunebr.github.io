@@ -6047,7 +6047,7 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all and (min-width: 600px) and (max-width: 990px)
+@media all (max-width: 990px)
 {
    .photos{
       width:auto;
