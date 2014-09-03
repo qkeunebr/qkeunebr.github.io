@@ -6047,17 +6047,14 @@ clear:left;
   background-color:#dd4814;
 }
 
-@media all (max-width: 990px)
+@media all (max-width: 800px)
 {
    .photos{
-      width:auto;
-      display:inline-block;
-      margin-bottom:-120px;
+      display:none;
     }
 
     .aside{
       display:none;
-      width:400px;
     }
 
     #bulle{
