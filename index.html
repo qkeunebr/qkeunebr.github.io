@@ -1,148 +1,297 @@
-      <!doctype html>
-      <html lang="fr">
-          <head>
-            <meta charset="utf-8">
-            <title>Quentin Keunebroek | Home</title>
-            <link rel="stylesheet" href="css/site2.css">
-          </head>
-
-
-      <body>
-        <header id="pres">
-        <!-- Barre de navigation --> 
-      	<nav class="navbar navbar-default" role="navigation" id="navigation">
-          <div class="container-fluid">
+  <!DOCTYPE HTML>
+  <html>
+    <head>
+      <meta charset="utf-8">
+  	  <title>Quentin Keunebroek | Home</title>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-sanitize.js" type="text/javascript"></script> 
+      <script type="text/javascript" src="angular.min.js"></script>
+      <script type="text/javascript" src="index.js"></script>
+      <script type="text/javascript" src="angular-translate.min.js"></script>
+      <script type="text/javascript" src="angular-cookies.min.js"></script>
+      <script type="text/javascript" src="angular-translate-storage-local.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="angular-carousel.js"></script>
+      <link href="css/angular-carousel.css" rel="stylesheet" type="text/css" />
+  	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body ng-app="PersonalWebsite" ng-controller='TranslateController as PersonalWebsite'>
+      <!-- Barre de navigation --> 
+      <nav class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+        <div class="container">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">quentinkeunebroek.fr</a>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                  <li><a class="active" href="index.html" class="active">Home</a></li>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="pdf/Keunebroek_Quentin_CVenglish.pdf">Resume</a></li>
-                  <li><a href="mailto:quentin.keunebroek@gmail.com">Contact</a></li>
-              </ul>
+          <div class="collapse navbar-collapse" ng-init="home=true;projects=false;cv=false">
+            <ul class="nav navbar-nav navbar-right" >
+              <li ng-class="{true:'active'}[home==true]"><a href="" ng-click="home=true;projects=false;cv=false;scrollTo('home')">{{'NAVBAR_HOME'| translate}}</a></li>
+              <li ng-class="{true:'active'}[projects==true]"><a  href="" ng-click="projects=true;home=false;cv=false;scrollTo('home')
+              ">{{'NAVBAR_PROJECTS'| translate}}</a></li>
+              <li ng-class="{true:'active'}[cv==true]"><a href="" ng-click="projects=false;home=false;cv=true;scrollTo('projects')
+              ">{{'NAVBAR_CV'| translate}}</a></li>
+              <li ng-show="currentlanguage=='en' || currentlanguage=='fr'"><a href="mailto:quentin.keunebroek@gmail.com">{{'NAVBAR_CONTACT'| translate}}</a></li>
+            </ul>
           </div>
-          </div>
-        </nav>
-
-<div id="wrap">  
-
-        <!-- Encadré --> 
-          <div class="hero-unit">
-                  <h1>Quentin Keunebroek</h1>
-                  <h3>Welcome.</h3>
-          </div>
-        </header>
-
-      <!--Contenu principal-->
-             
-           <div class="row">
-              <div class="col-md-8">
-                <div class="presentation">
-                <p>Hello ! My name is Quentin Keunebroek, I am a 20-year-old French Engineer Student at <a target="blank" href="http://www.utc.fr">the University of Technology of Compiègne</a>. This website is aimed at introducing myself as well as presenting the main projects I've been working on over the last few years.</p><br>
-                <p>I'm currently participating in the bachelor <a target="blank" href="http://www.utc.fr/formations-enseignements/humanites-technologie.php">Humanities and Technology</a>. This innovative degree course is aimed at training engineers who are able to better understand the human, economic and environmental stakes of current technologies. Indeed, I'm passionate about everything relating to technologies, and especially about the way that technologies and societies interact. That's the reason why I'm getting specialized in the management of socio-technological projects that require multidisciplinary skills. I'm also deeply interested in the animation of labor groups and the pedagogy. Moreover, I start studying in <a target="blank" href="http://www.utc.fr/formations-enseignements/genie-informatique.php">Computer Engineering</a> this year and I'm studying mainly algorithms, databases, datastructures, object-oriented programming and web development.</p><br>
-                <p>On this website, you can have a look at my projects, check out my resume and get in touch with me ! Do not hesitate to change the language of the website. ヅ
-</p><br>
-                              <p class="right top-spaced" align="right">
-                  <a class="btn btn-large btn-primary obfuscated-link" href="index.html">
-                          <i class="icon-envelope"></i>
-                          English
-                          </a>
-<a class="btn btn-large btn-primary2 obfuscated-link" href="accueil.html">
-                          <i class="icon-envelope"></i>
-                          Français
-                          </a>
-                          <div class="row">
-              <div class="col-md-5">
-              </div>
-              
-            </div> 
-              </div>
-
-                
-              </div>
-            <div class="col-md-4">
-                  <div class="aside">
-                     		<h3 align="center">About me</h3>
-                          <div id="bulle">
-                          </div>
-                     		<div class="profil"><img src="images/moi.jpg"></div>
-                    		<p>My name is Quentin Keunebroek. I am an Engineer Student at the University of Technology of Compiègne (<a href="http://www.utc.fr">http://www.utc.fr</a>).</p>
-                    		<p align="center">Follow me on the social networks !</p>
-                    		 <div align="center";><a target="blank" href="https://twitter.com/QKeunebroek"><img src="images/twitter.jpeg" width="35px"></a>   <a target="blank" href="https://plus.google.com/117657267842663950482/posts"><img src="images/googleplus.jpg" width="35px"></a>   <a target="blank" href="https://www.facebook.com/quentin.keunebroek"><img src="images/facebook.png" width="37px"></a>   <a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><img src="images/linkedin.png" width="35px"></a>   <a target="blank" href="http://instagram.com/qkeunebr"><img src="images/instagram.png" width="35px"></a></div>
-                  </div>
-            	</div>
-            </div>
-
-          </div>
-
-
-            <br><br>
-<div class="photos">
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/banc.jpg" alt="Photographie"/>
-  </a>
-</div>
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/plage.jpg" alt="Photographie" />
-  </a>
-</div>
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/berlin.jpg" alt="Photographie" />
-  </a>
-</div>  
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/lavande.jpg" alt="Photographie" />
-  </a>
-</div> 
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/compiegne.jpg" alt="Photographie" />
-  </a>
-</div> 
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/peche.jpg" alt="Photographie" />
-  </a>
-</div> 
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/quiberon.jpg" alt="Photographie" />
-  </a>
-</div> 
-<div class="thumb">
-  <a href="#pres">
-  <img src="images/plessis.jpg" alt="Photographie" />
-  </a>
-</div>
-</div>
-<br><br><br><br>
-<div id="footer">
-          <p class="jumbotron">&copy - Quentin Keunebroek - 2014<br>95130 - Le Plessis Bouchard (France)<br>quentin.keunebroek@gmail.com</p>
-      </div>
-
-
-                         		   
          </div>
         </div>
+      </nav>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-      <script type="text/javascript">  
-$('a[href^="#"]').click(function(){  
-    var the_id = $(this).attr("href");  
-  
-    $('html, body').animate({  
-        scrollTop:$(the_id).offset().top  
-    }, 'slow');  
-    return false;  
-});  
-</script>  
+      <div class="container" id="home" id="projects">  
+        <div ng-show="cv==true">
+          <div class="titlename">Quentin Keunebroek</div>
+          <div class="resume-preview" translate="{{ 'CV_PIC' }}"></div>
+          <div class="right top-spaced" align="center">
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
+                  <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
+            </div>
+        </div>
+        <div ng-show="home==true">
+          <!-- Hero-Unit --> 
+          <div class="hero-unit">
+            <h1>Quentin Keunebroek</h1>
+            <h3>{{'WELCOME' | translate}} <i class="fa fa-apple"></i></h3>
+          </div>
+
+          <!--Contenu principal-->        
+          <div class="row" id="presentation">
+            <div class="span8">
+              <div class="paddedbis">
+                <p translate="{{ 'GENERAL' }}"></p><br>
+                <p translate="{{ 'STUDIES'}}"></p><br>
+                <p translate="{{ 'GOAL' }}"></p><br>
+                <div class="right top-spaced" align="right">
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
+                  <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
+                </div>
+              </div> 
+            </div>
+            <div class="span4">
+              <div class="paddedbis">
+              <aside>
+                <h3 align="center" ng-show="currentlanguage=='fr'">{{'TITLE_ASIDE' | translate}}  <img class="flag" src="images/french.png" width="50px"/> </h3>
+                <h3 align="center" ng-show="currentlanguage=='en'">{{'TITLE_ASIDE' | translate}}  <img class="flag" src="images/american.png" width="50px"/></h3>
+                <div id="bulle">
+                </div>
+                  <img src="images/quentin.jpg" id="image">
+                  <p translate="{{'TEXT_ASIDE'}}"></p>
+                  <p align="center" ng-show="currentlanguage=='fr'">{{'SOCIAL_NETWORK' | translate}}</p>
+                  <p align="center" ng-show="currentlanguage=='en'">{{'SOCIAL_NETWORK' | translate}}</p>
+                  <ul class="social-links">
+                    <li><a target="blank" href="https://www.facebook.com/quentin.keunebroek"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="blank" href="https://twitter.com/QKeunebroek"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="blank" href="https://plus.google.com/117657267842663950482/posts"><i class="fa fa-google-plus"></i> </a>
+                    <li><a target="blank" href="http://instagram.com/qkeunebr"><i class="fa fa-instagram"></i> </a></li>
+                  </ul>
+              </aside>
+              </div>
+            </div>
+          </div>
+
+          <br><br>
+          <div class="photos">
+            <div class="thumb">
+                <a href="" ng-click="sf=true;nevada=false;hollywood=false;bridge=false;lake=false;mission=false;beach=false;apple=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/sanfrancisco.jpg" alt="Photographie"/></a>
+            </div>
+
+            <div class="thumb">
+                <a href="" ng-click="nevada=true;hollywood=false;bridge=false;lake=false;mission=false;beach=false;apple=false;sf=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/nevada.jpg" alt="Photographie" /></a>
+            </div>
+              
+            <div class="thumb">
+                <a href="" ng-click="hollywood=true;bridge=false;lake=false;mission=false;beach=false;apple=false;sf=false;nevada=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/hollywood.jpg" alt="Photographie" /></a>
+            </div>  
+
+            <div class="thumb">
+                <a href="" ng-click="bridge=true;lake=false;mission=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/bridge.jpg" alt="Photographie" /></a>
+            </div> 
+
+            <div class="thumb">
+                <a href="" ng-click="lake=true;mission=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/lake.jpg" alt="Photographie" /></a>
+            </div> 
+
+            <div class="thumb">
+                <a href="" ng-click="mission=true;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/mission.jpg" alt="Photographie" /></a>
+            </div> 
+
+            <div class="thumb">
+                <a href="" ng-click="beach=true;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/beach.jpg" alt="Photographie" /></a>
+            </div> 
+
+            <div class="thumb">
+                <a href="" ng-click="apple=true;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false;beach=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/apple.jpg" alt="Photographie" /></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div ng-show="projects==true">
+          <!-- Hero-Unit --> 
+          <div class="hero-unit2">
+            <h1>{{'NAVBAR_PROJECTS' | translate}}</h1>
+          </div>
+          </header>
+
+          <div class="span8">
+            <div class="row">
+            <input placeholder="{{ 'SEARCH' | translate }}"  type="text" value="{{project.title | translate}}" ng-model="search.key"/>
+            <div class="right top-spaced" align="left">
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
+                  <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
+            </div>
+            </div>
+          </div>
+          <div ng-controller="TranslateController">
+            <div class="row" id="presentation">
+            <div ng-repeat="project in projects | filter:search">
+                <div class="span8">
+                <div class="padded">
+                <div class="page-header">
+                  <h2>{{project.title | translate }} <small>{{ project.small | translate}}</small></h2>
+                </div>
+                    <p translate="{{project.general}}"></p><br>
+                    <p translate="{{project.goal | translate }}"></p><br>
+                    <p translate=" {{project.personal | translate }}"></p><br>
+                </div>
+                </div>   
+                <div class="span4">
+                  <div class="padded">
+                    <div class="asideproject">
+                      <div id="bulle">
+                      </div>
+                        <div class="imageaside">
+                        <img ng-src="{{project.image}}" id="image">
+                        </div>
+                        <p translate="{{project.firstaside}}"></p>
+                        <p translate="{{project.secondaside}}"></p>
+                        <p translate="{{project.thirdaside}}"></p>
+                        <p translate="{{project.linkaside}}"></p>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              </div>
+          </div>
+
+          <div class="photos">
+            <div class="thumb">
+              <a href="" ng-click="peche=true;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/peche.jpg" alt="Photographie" />
+              </a>
+            </div> 
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=true;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/quiberon.jpg" alt="Photographie" />
+              </a>
+            </div> 
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=false;plessis=true;banc=false;plage=false;berlin=false;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/plessis.jpg" alt="Photographie" />
+              </a>
+            </div>
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=false;plessis=false;banc=true;plage=false;berlin=false;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/banc.jpg" alt="Photographie"/>
+              </a>
+            </div>
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=false;plessis=false;banc=false;plage=true;berlin=false;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/plage.jpg" alt="Photographie" />
+              </a>
+            </div>
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=true;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/berlin.jpg" alt="Photographie" />
+              </a>
+            </div>  
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=true;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/compiegne.jpg" alt="Photographie" />
+              </a>
+            </div>  
+            <div class="thumb">
+               <a href="" ng-click="peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=true;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
+              <img src="images/lavande.jpg" alt="Photographie" />
+              </a>
+            </div>  
+          </div>
 
 
-      </body>
-      </html>
+        </div>
+      </div>
+
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" data-dismiss="modal">
+      <div class="modal-content"  >        
+        <div class="modal-body">
+          <img src="" class="imagepreview" style="width: 100%;">
+        </div> 
+        <div class="modal-footer">
+          <a href="" class="pull-right" data-dismiss="modal">Close</a>
+          <p ng-show="sf==true">Twin Peaks (San Francisco, California)</p>
+          <p ng-show="nevada==true">Lake Tahoe (Nevada)</p>
+          <p ng-show="apple==true">Apple Campus, One Infinite Loop (Cupertino, California)</p>
+          <p ng-show="bridge==true">Golden Gate Bridge (San Francisco, California)</p>
+          <p ng-show="mission==true">Dolores Park, Mission District (San Francisco, California)</p>
+          <p ng-show="lake==true">Lake Tahoe (Nevada)</p>
+          <p ng-show="beach==true">Venice Beach (Los Angeles, California)</p>
+          <p ng-show="hollywood==true">Hollywood Sign (Los Angeles, California)</p>
+          <p ng-show="berlin==true">Potsdamer Platz (Berlin, Germany)</p>
+          <p ng-show="plage==true">Plage de Locmariaquer (Morbihan, Bretagne)</p>
+          <p ng-show="plessis==true">Le Plessis Bouchard (France)</p>
+          <p ng-show="quiberon==true">Quiberon (Morbihan, France)</p>
+          <p ng-show="lavande==true">Champ de lavande (Provence, France)</p>
+          <p ng-show="compiegne==true">Compiègne (Picardie, France)</p>
+          <p ng-show="banc==true">Braunschweig (Germany)</p>
+          <p ng-show="peche==true">Morbihan (Bretagne)</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div id="footer">
+      <p class="jumbotron">&copy - Quentin Keunebroek - 2016<br>Paris / San Francisco<br>quentin.keunebroek@gmail.com</p>
+  </div>
+  </div>
+
+  </body>
+  </html>
+
+
+  <script type="text/javascript">
+  $(function() {
+      $('.pop').on('click', function() {
+        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal').modal('show');   
+      });   
+  });
+
+  $(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+  </script>
