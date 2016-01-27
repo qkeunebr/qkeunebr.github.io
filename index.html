@@ -40,15 +40,6 @@
       </nav>
 
       <div class="container" id="home" id="projects">  
-        <div ng-show="cv==true">
-          <div class="titlename">Quentin Keunebroek</div>
-          <div class="resume-preview" translate="{{ 'CV_PIC' }}"></div>
-          <div class="right top-spaced" align="center">
-                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
-                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
-                  <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
-            </div>
-        </div>
         <div ng-show="home==true">
           <!-- Hero-Unit --> 
           <div class="hero-unit">
@@ -130,7 +121,15 @@
 
         </div>
       </div>
-
+      <div ng-show="cv==true">
+          <div class="titlename">Quentin Keunebroek</div>
+          <div class="resume-preview" translate="{{ 'CV_PIC' }}"></div>
+          <div class="right top-spaced" align="center">
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
+                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
+                  <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
+           </div>
+      </div>
       <div class="container">
         <div ng-show="projects==true">
           <!-- Hero-Unit --> 
