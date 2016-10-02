@@ -26,10 +26,34 @@
           HUTECH_ASIDE_SECOND: "New approach to the engineering",
           HUTECH_ASIDE_THIRD: "Philosophy, epistemology, history, innovation, economics, languages, computer science, logic, mathematics, algorithms, value analysis",
           HUTECH_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/humanities-and-technology-course-hutech.html'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
+          
+          GEO_TITLE:"GeoCatch",
+          GEO_TITLE_MIN:"Interactive Android game",
+          GEO_GENERAL:"I realized this project as a member of a 4 person team at the UTC, in Spring 2016.",
+          GEO_GOAL:"GeoCatch is an interactive Android game, in which two teams use geolocation to achieve two main goals: the capture of different control points and the elimination of the opponent team. The goal was to make it possible for a large panel of users to play a game online and go out in the city and enjoy the open air at the same time. It's also a good opportunity to discover new places in town.",
+          GEO_PERSONAL:"The project was the opportunity to reinforce my skills in Java and Android as well as to discover multiagents systems (the whole app is structured with different agents : for examples, the control points have their own behaviours and an agent is responsible for the communication between the views and the REST server).",
+          GEO_ASIDE_FIRST:"GeoCatch",
+          GEO_ASIDE_SECOND:"Interactive Android game, UTC (France)",
+          GEO_ASIDE_THIRD:"Android Studio, Java, REST, Jade",
+          GEO_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://github.com/KerDelos/GeoCatch'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
+
+
+          UTComputer_TITLE:"UTComputer",
+          UTComputer_TITLE_MIN:"Calculator written in C++",
+          UTComputer_GENERAL:"I realized this project as a member of a 2 person team at the UTC, in Spring 2016.",
+          UTComputer_GOAL:"UTComputer is a calculator based on the Reverse Polish Notation that can deal with various types of numbers : complex, integers, rationals and even literal expressions. It's written in C++ with the framework Qt.",
+          UTComputer_PERSONAL:"The project was the opportunity to reinforce my skills in OOP (by implementing some design patterns) and to learn the language C++.",
+          UTComputer_ASIDE_FIRST:"UTComputer",
+          UTComputer_ASIDE_SECOND:"Calculator in C++, UTC (France)",
+          UTComputer_ASIDE_THIRD:"Qt, OOP, UML, C++",
+          UTComputer_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://github.com/qkeunebr/UTComputer'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
+
+
+
           CROIX_TITLE:"Pegass - Croix-Rouge française",
           CROIX_TITLE_MIN:"Web development",
-          CROIX_GENERAL:"This project was realized with the help of 2 other students at the UTC, in Autumn 2015.",
-          CROIX_GOAL:"The goal was to improve the internal web application Pegass, which is aimed at managing all the volunteer activities in the association. The exact work that was done within the projet remains, for now, confidential.",
+          CROIX_GENERAL:"I realized this project as a 5 person team at the UTC, in Fall 2015.",
+          CROIX_GOAL:"The goal was to improve the internal web application Pegass, which is aimed at managing all the volunteer activities in the association Croix-Rouge française.",
           CROIX_PERSONAL:"The project was the opportunity to improve my skills in project management and web development.",
           CROIX_ASIDE_FIRST:"Pegass improvement",
           CROIX_ASIDE_SECOND:"Croix-Rouge française, Paris (France)",
@@ -123,7 +147,7 @@
   			 	NAVBAR_CONTACT: 'Contact',
   			 	WELCOME: 'Bienvenue',
     			GENERAL: "Bonjour ! Je m'appelle Quentin Keunebroek, j'ai 22 ans et je suis étudiant-ingénieur à <a target='blank' href='http://www.utc.fr'>l'Université de Technologie de Compiègne</a>. Ce site a pour objectifs de me présenter ainsi que faire découvrir les principaux projets auxquels j'ai participé ces dernières années.",
-    			STUDIES: "J'effectue actuellement un Master en Sciences de l'Informatique. Je suis aussi titulaire du Bachelor <a target='blank' href='http://www.utc.fr/formations/diplome-dingenieur/cursus-humanites-et-technologie-hutech.html'>Humanités et Technologie</a>. Ce cursus innovant, qui allie Ingénierie et Sciences Humaines, vise à former des ingénieurs capables de mieux appréhender les enjeux humains, économiques, et environnementaux des technologies actuelles. Je suis en effet passionné par tout ce qui a trait aux technologies, et notamment par la façon dont technologies et sociétés interagissent. Par ailleurs, j'ai effectué un stage de 6 mois en tant qu'Ingénieur Informatique chez <a target='blank' href='http://www.apple.com/fr/'>Apple, Inc.</a> à Cupertino (Californie). Je suis en ce moment à la recherche de mon stage de fin d'études pour le semestre de printemps 2017 et ",
+    			STUDIES: "J'effectue actuellement un Master en Sciences de l'Informatique. Je suis aussi titulaire du Bachelor <a target='blank' href='http://www.utc.fr/formations/diplome-dingenieur/cursus-humanites-et-technologie-hutech.html'>Humanités et Technologie</a>. Ce cursus innovant, qui allie Ingénierie et Sciences Humaines, vise à former des ingénieurs capables de mieux appréhender les enjeux humains, économiques, et environnementaux des technologies actuelles. Je suis en effet passionné par tout ce qui a trait aux technologies, et notamment par la façon dont technologies et sociétés interagissent. Par ailleurs, j'ai effectué un stage de 6 mois en tant qu'Ingénieur Informatique chez <a target='blank' href='http://www.apple.com/fr/'>Apple, Inc.</a> à Cupertino (Californie), probablement la meilleure expérience de ma vie !. Je suis en ce moment à la recherche de mon stage de fin d'études pour le semestre de printemps 2017 !",
     			GOAL: "Sur ce site, vous pouvez voir mes projets, jeter un coup d'oeil à mon CV et prendre contact avec moi. Bonne visite ! ヅ",
     			BUTTON_TEXT_EN: 'Anglais',
     			BUTTON_TEXT_FR: 'Français',
@@ -140,6 +164,31 @@
           HUTECH_ASIDE_SECOND: "New approach to the engineering",
           HUTECH_ASIDE_THIRD: "Philosophy, epistemology, history, innovation, economics, languages, computer science, logic, mathematics, algorithms, value analysis",
           HUTECH_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://www.utc.fr/en.html'>En savoir plus</a> <i class='fa fa-hand-o-left'></i>",
+          
+          GEO_TITLE:"GeoCatch",
+          GEO_TITLE_MIN:"Jeu Android interactif",
+          GEO_GENERAL:"J'ai réalisé ce projet au sein d'une équipe de 4 étudiants à l'UTC, au printemps 2016.",
+          GEO_GOAL:"GeoCatch est un jeu interactif sous Android, dans lequel deux équipes s'affrontent et utilisent la géolocalisation pour remplir deux objectifs principaux: la capture de points de contrôle et l'élimination de l'équipe adverse. L'objectif était d'offrir à un large panel d'utilisateurs la possibilité, à la fois de jouer en ligne et de sortir de chez soi et profiter de l'air libre. C'est aussi une bonne occasion pour découvrir de nouveaux lieux en ville.",
+          GEO_PERSONAL:"Le projet était l'occasion de renforcer mes compétences en Java et en Android mais aussi de découvrir les systèmes multi-agents (l'application est structurée à l'aide d'agents: par exemples, les points de contrôle ont leur propre comportement et c'est un agent qui est responsable de la communication entre les vues Android et le serveur REST).",
+          GEO_ASIDE_FIRST:"GeoCatch",
+          GEO_ASIDE_SECOND:"Jeu interactif Android, UTC (France)",
+          GEO_ASIDE_THIRD:"Android Studio, Java, REST, Jade",
+          GEO_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://github.com/KerDelos/GeoCatch'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
+
+
+          UTComputer_TITLE:"UTComputer",
+          UTComputer_TITLE_MIN:"Calculatrice en C++",
+          UTComputer_GENERAL:"J'ai réalisé ce projet avec un autre étudiant à l'UTC, au printemps 2016.",
+          UTComputer_GOAL:"UTComputer est une calculatrice basée sur la notation polonaise inversée, qui peut traiter différents types de nombres : des complexes, des entiers, des rationnels et même des expressions littérales. C'est codé en C++ et utilise le framework Qt.",
+          UTComputer_PERSONAL:"Ce projet a été l'occasion de renforcer mes compétences en programmation orientée objets (utilisation de plusieurs design patterns) et d'apprendre le langage C++.",
+          UTComputer_ASIDE_FIRST:"UTComputer",
+          UTComputer_ASIDE_SECOND:"Calculatrice en C++, UTC (France)",
+          UTComputer_ASIDE_THIRD:"Qt, PPP, UML, C++",
+          UTComputer_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://github.com/qkeunebr/UTComputer'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
+
+
+          
+
           CROIX_TITLE:"Pegass - Croix-Rouge française",
           CROIX_TITLE_MIN:"Développement Web",
           CROIX_GENERAL:"Ce projet a été réalisé à l'aide de 4 autres étudiants à l'UTC, en automne 2015.",
@@ -234,17 +283,19 @@
 	});//angular is the library, store the name of the module and the [] stands for dependencies. 
 
 app.constant('ProjectsTitles', [
-    {id: 1, key:'Pegass Croix Rouge française',  title: 'CROIX_TITLE', small: 'CROIX_TITLE_MIN', general: 'CROIX_GENERAL', goal: 'CROIX_GOAL', personal: 'CROIX_PERSONAL', firstaside: "CROIX_ASIDE_FIRST", secondaside: "CROIX_ASIDE_SECOND", thirdaside: "CROIX_ASIDE_THIRD", linkaside: "CROIX_LINK", image: 'images/croix-rouge.png'},
-    {id: 2, key:'BiPod iOS Health Santé App Start-up française french', title: 'BIO_TITLE', small: 'BIO_TITLE_MIN', general: 'BIO_GENERAL', goal: 'BIO_GOAL', personal: 'BIO_PERSONAL', firstaside: "BIO_ASIDE_FIRST", secondaside: "BIO_ASIDE_SECOND", thirdaside: "BIO_ASIDE_THIRD", image: 'images/health.png'},
-    {id: 3, key:'MBTI personality Profil MBTI Expert system Système expert', title: 'MBTI_TITLE', small: 'MBTI_TITLE_MIN', general: 'MBTI_GENERAL', goal: 'MBTI_GOAL', personal: 'MBTI_PERSONAL', firstaside: "MBTI_ASIDE_FIRST", secondaside: "MBTI_ASIDE_SECOND", thirdaside: "MBTI_ASIDE_THIRD", image: 'images/lisp.jpg'},
-    {id: 4, key: 'Hutech Humanités et Technologie Humanities and Technology New Bachelor nouveau cursus', title: 'HUTECH_TITLE', small: 'HUTECH_TITLE_MIN', general: 'HUTECH_GENERAL', personal: "HUTECH_PERSONAL", goal: 'HUTECH_GOAL', firstaside: "HUTECH_ASIDE_FIRST", secondaside: "HUTECH_ASIDE_SECOND", thirdaside: "HUTECH_ASIDE_THIRD", linkaside: "HUTECH_LINK", image:'images/hutech.jpg'},
-    {id: 5, key: 'ReuniUTC Android App Application Android', title: 'ANDROID_TITLE', small: 'ANDROID_TITLE_MIN',general: 'ANDROID_GENERAL', personal: "ANDROID_PERSONAL", goal: 'ANDROID_GOAL', firstaside: "ANDROID_ASIDE_FIRST", secondaside: "ANDROID_ASIDE_SECOND", thirdaside: "ANDROID_ASIDE_THIRD", linkaside: "", image:'images/android.jpg'},
-    {id: 6, key: 'Programming distributed embedded systems Programmation de systèmes distribués et embarqués',title: 'BRAUNSCHWEIG_TITLE', small: 'BRAUNSCHWEIG_TITLE_MIN',general: 'BRAUNSCHWEIG_GENERAL', personal: "BRAUNSCHWEIG_PERSONAL", goal: 'BRAUNSCHWEIG_GOAL', firstaside: "BRAUNSCHWEIG_ASIDE_FIRST", secondaside: "BRAUNSCHWEIG_ASIDE_SECOND", thirdaside: "BRAUNSCHWEIG_ASIDE_THIRD", linkaside: "BRAUNSCHWEIG_LINK", image:'images/projekt.jpg'},
-    {id: 7, key: 'From Industrial to Cognitive Capitalism Du capitalisme industriel au capitalisme cognitif PHITECO',title: 'PHITECO_TITLE', small: 'PHITECO_TITLE_MIN',general: 'PHITECO_GENERAL', personal: "PHITECO_PERSONAL", goal: 'PHITECO_GOAL', firstaside: "PHITECO_ASIDE_FIRST", secondaside: "PHITECO_ASIDE_SECOND", thirdaside: "PHITECO_ASIDE_THIRD", linkaside: "PHITECO_LINK", image:'images/capitalisme.jpg'},
-    {id: 8, key: 'Contemporary Engineer Methodology Méthodologie Ingénieur Contemporain Analyse de la valeur analyse value analysis Value Analysis',title: 'METHOD_TITLE', small: 'METHOD_TITLE_MIN',general: 'METHOD_GENERAL', personal: "METHOD_PERSONAL", goal: 'METHOD_GOAL', firstaside: "METHOD_ASIDE_FIRST", secondaside: "METHOD_ASIDE_SECOND", thirdaside: "METHOD_ASIDE_THIRD", linkaside: "METHOD_LINK", image:'images/fast.jpg'},
-    {id: 9, key: 'Réinventer la pédagogie dans la vague des MOOCs Reinvent pedagogy in the MOOCs vague MOOC',title: 'MOOC_TITLE', small: 'MOOC_TITLE_MIN',general: 'MOOC_GENERAL', personal: "MOOC_PERSONAL", goal: 'MOOC_GOAL', firstaside: "MOOC_ASIDE_FIRST", secondaside: "MOOC_ASIDE_SECOND", thirdaside: "MOOC_ASIDE_THIRD", linkaside: "MOOC_LINK", image:'images/mooc.png'},
-    {id: 10, key: 'De architecture théâtrale aux spectateurs From theatre architecture to spectators History of Technologies Histoire des techniques',title: 'ARCHI_TITLE', small: 'ARCHI_TITLE_MIN',general: 'ARCHI_GENERAL', personal: "ARCHI_PERSONAL", goal: 'ARCHI_GOAL', firstaside: "ARCHI_ASIDE_FIRST", secondaside: "ARCHI_ASIDE_SECOND", thirdaside: "ARCHI_ASIDE_THIRD", linkaside: "ARCHI_LINK", image:'images/theatre.jpg'},
-    {id: 11, key: 'Theatre Conservatory Conservatoire de Théâtre', title: 'THEATRE_TITLE', small: 'THEATRE_TITLE_MIN',general: 'THEATRE_GENERAL', personal: "THEATRE_PERSONAL", goal: 'THEATRE_GOAL', firstaside: "THEATRE_ASIDE_FIRST", secondaside: "THEATRE_ASIDE_SECOND", thirdaside: "THEATRE_ASIDE_THIRD", linkaside: "THEATRE_LINK", image:'images/Aventure.jpg'},
+    {id: 1, key:'GeoCatch',  title: 'GEO_TITLE', small: 'GEO_TITLE_MIN', general: 'GEO_GENERAL', goal: 'GEO_GOAL', personal: 'GEO_PERSONAL', firstaside: "GEO_ASIDE_FIRST", secondaside: "GEO_ASIDE_SECOND", thirdaside: "GEO_ASIDE_THIRD", linkaside: "GEO_LINK", image: 'images/logo.png'},
+    {id: 2, key:'UTComputer',  title: 'UTComputer_TITLE', small: 'UTComputer_TITLE_MIN', general: 'UTComputer_GENERAL', goal: 'UTComputer_GOAL', personal: 'UTComputer_PERSONAL', firstaside: "UTComputer_ASIDE_FIRST", secondaside: "UTComputer_ASIDE_SECOND", thirdaside: "UTComputer_ASIDE_THIRD", linkaside: "UTComputer_LINK", image: 'images/UTComputer.png'},
+    {id: 3, key:'Pegass Croix Rouge française',  title: 'CROIX_TITLE', small: 'CROIX_TITLE_MIN', general: 'CROIX_GENERAL', goal: 'CROIX_GOAL', personal: 'CROIX_PERSONAL', firstaside: "CROIX_ASIDE_FIRST", secondaside: "CROIX_ASIDE_SECOND", thirdaside: "CROIX_ASIDE_THIRD", linkaside: "CROIX_LINK", image: 'images/croix-rouge.png'},
+    {id: 4, key:'BiPod iOS Health Santé App Start-up française french', title: 'BIO_TITLE', small: 'BIO_TITLE_MIN', general: 'BIO_GENERAL', goal: 'BIO_GOAL', personal: 'BIO_PERSONAL', firstaside: "BIO_ASIDE_FIRST", secondaside: "BIO_ASIDE_SECOND", thirdaside: "BIO_ASIDE_THIRD", image: 'images/health.png'},
+    {id: 5, key:'MBTI personality Profil MBTI Expert system Système expert', title: 'MBTI_TITLE', small: 'MBTI_TITLE_MIN', general: 'MBTI_GENERAL', goal: 'MBTI_GOAL', personal: 'MBTI_PERSONAL', firstaside: "MBTI_ASIDE_FIRST", secondaside: "MBTI_ASIDE_SECOND", thirdaside: "MBTI_ASIDE_THIRD", image: 'images/lisp.jpg'},
+    {id: 6, key: 'Hutech Humanités et Technologie Humanities and Technology New Bachelor nouveau cursus', title: 'HUTECH_TITLE', small: 'HUTECH_TITLE_MIN', general: 'HUTECH_GENERAL', personal: "HUTECH_PERSONAL", goal: 'HUTECH_GOAL', firstaside: "HUTECH_ASIDE_FIRST", secondaside: "HUTECH_ASIDE_SECOND", thirdaside: "HUTECH_ASIDE_THIRD", linkaside: "HUTECH_LINK", image:'images/hutech.jpg'},
+    {id: 7, key: 'ReuniUTC Android App Application Android', title: 'ANDROID_TITLE', small: 'ANDROID_TITLE_MIN',general: 'ANDROID_GENERAL', personal: "ANDROID_PERSONAL", goal: 'ANDROID_GOAL', firstaside: "ANDROID_ASIDE_FIRST", secondaside: "ANDROID_ASIDE_SECOND", thirdaside: "ANDROID_ASIDE_THIRD", linkaside: "", image:'images/android.jpg'},
+    {id: 8, key: 'Programming distributed embedded systems Programmation de systèmes distribués et embarqués',title: 'BRAUNSCHWEIG_TITLE', small: 'BRAUNSCHWEIG_TITLE_MIN',general: 'BRAUNSCHWEIG_GENERAL', personal: "BRAUNSCHWEIG_PERSONAL", goal: 'BRAUNSCHWEIG_GOAL', firstaside: "BRAUNSCHWEIG_ASIDE_FIRST", secondaside: "BRAUNSCHWEIG_ASIDE_SECOND", thirdaside: "BRAUNSCHWEIG_ASIDE_THIRD", linkaside: "BRAUNSCHWEIG_LINK", image:'images/projekt.jpg'},
+    {id: 9, key: 'From Industrial to Cognitive Capitalism Du capitalisme industriel au capitalisme cognitif PHITECO',title: 'PHITECO_TITLE', small: 'PHITECO_TITLE_MIN',general: 'PHITECO_GENERAL', personal: "PHITECO_PERSONAL", goal: 'PHITECO_GOAL', firstaside: "PHITECO_ASIDE_FIRST", secondaside: "PHITECO_ASIDE_SECOND", thirdaside: "PHITECO_ASIDE_THIRD", linkaside: "PHITECO_LINK", image:'images/capitalisme.jpg'},
+    {id: 10, key: 'Contemporary Engineer Methodology Méthodologie Ingénieur Contemporain Analyse de la valeur analyse value analysis Value Analysis',title: 'METHOD_TITLE', small: 'METHOD_TITLE_MIN',general: 'METHOD_GENERAL', personal: "METHOD_PERSONAL", goal: 'METHOD_GOAL', firstaside: "METHOD_ASIDE_FIRST", secondaside: "METHOD_ASIDE_SECOND", thirdaside: "METHOD_ASIDE_THIRD", linkaside: "METHOD_LINK", image:'images/fast.jpg'},
+    {id: 11, key: 'Réinventer la pédagogie dans la vague des MOOCs Reinvent pedagogy in the MOOCs vague MOOC',title: 'MOOC_TITLE', small: 'MOOC_TITLE_MIN',general: 'MOOC_GENERAL', personal: "MOOC_PERSONAL", goal: 'MOOC_GOAL', firstaside: "MOOC_ASIDE_FIRST", secondaside: "MOOC_ASIDE_SECOND", thirdaside: "MOOC_ASIDE_THIRD", linkaside: "MOOC_LINK", image:'images/mooc.png'},
+    {id: 12, key: 'De architecture théâtrale aux spectateurs Fsrom theatre architecture to spectators History of Technologies Histoire des techniques',title: 'ARCHI_TITLE', small: 'ARCHI_TITLE_MIN',general: 'ARCHI_GENERAL', personal: "ARCHI_PERSONAL", goal: 'ARCHI_GOAL', firstaside: "ARCHI_ASIDE_FIRST", secondaside: "ARCHI_ASIDE_SECOND", thirdaside: "ARCHI_ASIDE_THIRD", linkaside: "ARCHI_LINK", image:'images/theatre.jpg'},
+    {id: 13, key: 'Theatre Conservatory Conservatoire de Théâtre', title: 'THEATRE_TITLE', small: 'THEATRE_TITLE_MIN',general: 'THEATRE_GENERAL', personal: "THEATRE_PERSONAL", goal: 'THEATRE_GOAL', firstaside: "THEATRE_ASIDE_FIRST", secondaside: "THEATRE_ASIDE_SECOND", thirdaside: "THEATRE_ASIDE_THIRD", linkaside: "THEATRE_LINK", image:'images/Aventure.jpg'},
 ]);
 
 
@@ -258,6 +309,9 @@ app.constant('ProjectsTitles', [
   $scope.projects = ProjectsTitles;
   $scope.menuItems = ['Home', 'Projects'];
   $scope.activeMenu = $scope.menuItems[0];
+
+
+
    $scope.setActive = function(menuItem) {
     $scope.activeMenu = menuItem
  }
