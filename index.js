@@ -1,5 +1,5 @@
 (function(){//closure
-	var app=angular.module('PersonalWebsite',['pascalprecht.translate']).config(function($translateProvider){
+	var app=angular.module('PersonalWebsite',['pascalprecht.translate',"ngRoute"]).config(function($translateProvider){
     		$translateProvider.translations('en', {
     			TITLE_HOME: 'Home',
     			NAVBAR_HOME: 'Home',
@@ -297,6 +297,19 @@ app.constant('ProjectsTitles', [
     {id: 12, key: 'De architecture théâtrale aux spectateurs Fsrom theatre architecture to spectators History of Technologies Histoire des techniques',title: 'ARCHI_TITLE', small: 'ARCHI_TITLE_MIN',general: 'ARCHI_GENERAL', personal: "ARCHI_PERSONAL", goal: 'ARCHI_GOAL', firstaside: "ARCHI_ASIDE_FIRST", secondaside: "ARCHI_ASIDE_SECOND", thirdaside: "ARCHI_ASIDE_THIRD", linkaside: "ARCHI_LINK", image:'images/theatre.jpg'},
     {id: 13, key: 'Theatre Conservatory Conservatoire de Théâtre', title: 'THEATRE_TITLE', small: 'THEATRE_TITLE_MIN',general: 'THEATRE_GENERAL', personal: "THEATRE_PERSONAL", goal: 'THEATRE_GOAL', firstaside: "THEATRE_ASIDE_FIRST", secondaside: "THEATRE_ASIDE_SECOND", thirdaside: "THEATRE_ASIDE_THIRD", linkaside: "THEATRE_LINK", image:'images/Aventure.jpg'},
 ]);
+
+app.config(function($routeProvider) {
+  $routeProvider
+  .when("/home", {
+    templateUrl : "home.htm"
+  })
+  .when("/projects", {
+    templateUrl : "projects.htm"
+  })
+  .when("/resume", {
+    templateUrl : "resume.htm"
+  });
+});
 
 
 	
