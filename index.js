@@ -1,7 +1,8 @@
 (function(){//closure
 	var app=angular.module('PersonalWebsite',['pascalprecht.translate',"ngRoute"]).config(function($translateProvider){
     		$translateProvider.translations('en', {
-    			TITLE_HOME: 'Home',
+    			
+          TITLE_HOME: 'Home',
     			NAVBAR_HOME: 'Home',
     			NAVBAR_PROJECTS: 'Projects',
           NAVBAR_CV: 'Resume',
@@ -26,7 +27,6 @@
           HUTECH_ASIDE_SECOND: "New approach to the engineering",
           HUTECH_ASIDE_THIRD: "Philosophy, epistemology, history, innovation, economics, languages, computer science, logic, mathematics, algorithms, value analysis",
           HUTECH_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/humanities-and-technology-course-hutech.html'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
-          
           GEO_TITLE:"GeoCatch",
           GEO_TITLE_MIN:"Interactive Android game",
           GEO_GENERAL:"I realized this project as a member of a 4 person team at the UTC, in Spring 2016.",
@@ -36,8 +36,6 @@
           GEO_ASIDE_SECOND:"Interactive Android game, UTC (France)",
           GEO_ASIDE_THIRD:"Android Studio, Java, REST, Jade",
           GEO_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://github.com/KerDelos/GeoCatch'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
-
-
           UTComputer_TITLE:"UTComputer",
           UTComputer_TITLE_MIN:"Calculator written in C++",
           UTComputer_GENERAL:"I realized this project as a member of a 2 person team at the UTC, in Spring 2016.",
@@ -47,9 +45,6 @@
           UTComputer_ASIDE_SECOND:"Calculator in C++, UTC (France)",
           UTComputer_ASIDE_THIRD:"Qt, OOP, UML, C++",
           UTComputer_LINK: "<i class='fa fa-hand-o-right'></i> <a target='blank' href='https://github.com/qkeunebr/UTComputer'>Learn more</a> <i class='fa fa-hand-o-left'></i>",
-
-
-
           CROIX_TITLE:"Pegass - Croix-Rouge française",
           CROIX_TITLE_MIN:"Web development",
           CROIX_GENERAL:"I realized this project as a 5 person team at the UTC, in Fall 2015.",
@@ -298,7 +293,7 @@ app.constant('ProjectsTitles', [
     {id: 13, key: 'Theatre Conservatory Conservatoire de Théâtre', title: 'THEATRE_TITLE', small: 'THEATRE_TITLE_MIN',general: 'THEATRE_GENERAL', personal: "THEATRE_PERSONAL", goal: 'THEATRE_GOAL', firstaside: "THEATRE_ASIDE_FIRST", secondaside: "THEATRE_ASIDE_SECOND", thirdaside: "THEATRE_ASIDE_THIRD", linkaside: "THEATRE_LINK", image:'images/Aventure.jpg'},
 ]);
 
-app.config(function($routeProvider) {
+app.config(function($routeProvider,$locationProvider) {
   $routeProvider
   .when("/home", {
     templateUrl : "home.htm"
@@ -308,8 +303,17 @@ app.config(function($routeProvider) {
   })
   .when("/resume", {
     templateUrl : "resume.htm"
-  });
+  })
+  .otherwise({
+            redirectTo: '/home'
+        });
+
+  $locationProvider.html5Mode(true);
 });
+
+app.run(function ($browser) {
+    $browser.baseHref = function () { return "quentinkeunebroek.fr" };
+  });
 
 
 	
