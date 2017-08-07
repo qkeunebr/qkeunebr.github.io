@@ -293,7 +293,7 @@ app.constant('ProjectsTitles', [
     {id: 13, key: 'Theatre Conservatory Conservatoire de Théâtre', title: 'THEATRE_TITLE', small: 'THEATRE_TITLE_MIN',general: 'THEATRE_GENERAL', personal: "THEATRE_PERSONAL", goal: 'THEATRE_GOAL', firstaside: "THEATRE_ASIDE_FIRST", secondaside: "THEATRE_ASIDE_SECOND", thirdaside: "THEATRE_ASIDE_THIRD", linkaside: "THEATRE_LINK", image:'images/Aventure.jpg'},
 ]);
 
-app.config(function($routeProvider,$locationProvider) {
+app.config(function($routeProvider) {
   $routeProvider
   .when("/home", {
     templateUrl : "home.htm"
@@ -308,7 +308,6 @@ app.config(function($routeProvider,$locationProvider) {
             redirectTo: '/home'
         });
 
-  $locationProvider.html5Mode(true);
 });
 
 app.run(function ($browser) {
