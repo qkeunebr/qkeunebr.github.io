@@ -132,7 +132,7 @@
           METHOD_ASIDE_SECOND:"Ermont-Eaubnne",
           METHOD_ASIDE_THIRD:"2002-2012",
           METHOD_LINK: "",
-          CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_resume.pdf'><img src='images/Keunebroek_Quentin_resume.jpg' width='400px'/></a>",
+          CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_resume.pdf'><img src='images/Keunebroek_Quentin_resume.png' width='400px'/></a>",
   			})
   			  .translations('fr', {
   			 	TITLE_HOME: 'Accueil',
