@@ -271,7 +271,7 @@
           METHOD_ASIDE_SECOND:"Analyse de la valeur (8 étudiants)",
           METHOD_ASIDE_THIRD:"Automne 2013 (UTC, Compiègne)",
           METHOD_LINK: "",
-          CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_CV.pdf'><img src='images/Keunebroek_Quentin_CV.jpg'width='400px'/></a>",
+          CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_CV.pdf'><img src='images/Keunebroek_Quentin_CV.png'width='400px'/></a>",
 
   			});
   			$translateProvider.preferredLanguage('en');
