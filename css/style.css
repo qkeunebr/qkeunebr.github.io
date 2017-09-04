@@ -14,12 +14,14 @@ background-size: 100% 100%;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+      font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
   }
 
   .hero-unit2{
   padding: 183px;
   margin-bottom:30px;
-  background-image: url(../images/sf.jpg); 
+  background-image: url(../images/tankhill.jpg); 
 background-position: center;
 background-repeat: no-repeat; 
 background-size: cover; 
@@ -32,16 +34,18 @@ background-size: 100% 100%;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+      font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
   }
 
   aside {
     position: relative;
-background-color: #3D3D3D;
-    background-image: -moz-linear-gradient(top, #3D3D3D,#3D3D3D);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3D3D3D), to(#3D3D3D));
-    background-image: -webkit-linear-gradient(top, #3D3D3D, #3D3D3D);
-    background-image: -o-linear-gradient(top, #3D3D3D, #3D3D3D);
-    background-image: linear-gradient(to bottom, #3D3D3D, #3D3D3D);
+background-color: #000;
+    background-image: -moz-linear-gradient(top, #000,#000);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#000));
+    background-image: -webkit-linear-gradient(top, #000, #000);
+    background-image: -o-linear-gradient(top, #000, #000);
+    background-image: linear-gradient(to bottom, #000, #000);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffad1d28', endColorstr='#ffad1d28', GradientType=0);
     border: 1px solid #3A6C7F;
@@ -50,16 +54,19 @@ background-color: #3D3D3D;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     font-size: 14px;
+      font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#fff;
+
 }
 
 .asideproject{
  position: relative;
-background-color: #3D3D3D;
-    background-image: -moz-linear-gradient(top, #3D3D3D,#3D3D3D);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3D3D3D), to(#3D3D3D));
-    background-image: -webkit-linear-gradient(top, #3D3D3D, #3D3D3D);
-    background-image: -o-linear-gradient(top, #3D3D3D, #3D3D3D);
-    background-image: linear-gradient(to bottom, #3D3D3D, #3D3D3D);
+background-color: #000;
+    background-image: -moz-linear-gradient(top, #000,#000);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#000));
+    background-image: -webkit-linear-gradient(top, #000, #000);
+    background-image: -o-linear-gradient(top, #000, #000);
+    background-image: linear-gradient(to bottom, #000, #000);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffad1d28', endColorstr='#ffad1d28', GradientType=0);
     border: 1px solid #3A6C7F;
@@ -69,6 +76,10 @@ background-color: #3D3D3D;
     padding: 10px;
     font-size: 14px;
     margin-top:40px;
+      font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+      color:#fff;
+
+
 }
 
 aside h3{
@@ -76,13 +87,13 @@ aside h3{
 }
 
 #bulle {position: relative;
-background: #3D3D3D; /** couleur du fond (se retrouve 2 fois) **/
+background: #000; /** couleur du fond (se retrouve 2 fois) **/
 width:0px; height:0px;} /** dimensions de la cellule (du cadre) **/
 #bulle:after, #bulle:before {right: 100%; /** right pour mettre la flèche à gauche ! **/
 border: solid transparent; content: ""; position: absolute;}
-#bulle:after {border-right-color: #3D3D3D; /** 2e indication de couleur du fond **/}
+#bulle:after {border-right-color: #000; /** 2e indication de couleur du fond **/}
 
-#bulle:before {border-right-color: #3D3D3D; /** 2e indication de la couleur de la bordure **/
+#bulle:before {border-right-color: #000; /** 2e indication de la couleur de la bordure **/
 border-width: 30px; /** indication de la grandeur de la flèche +7px **/
 top: 30%; /** 2e indication de la position de la flèche **/
 margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur négative) **/
@@ -90,9 +101,9 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
 .asides{
  margin-left:40px;
  margin-bottom:15px;
- border: solid 2px #3D3D3D;
+ border: solid 2px #000;
  display: inline-block;
- background-color: #3D3D3D;
+ background-color: #000;
  color: rgba(255, 255, 255, 0.9);
  padding-left:10px;
  padding-right:10px;
@@ -100,6 +111,9 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
  width:310px;
  text-align:left;
  padding-top:15px;
+   font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+   color:#fff;
+
 }
 
 #image{
@@ -135,11 +149,11 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
 }
 
 body{
-  font-family: 'Roboto',sans-serif;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: rgba(255, 255, 255, 0.9);
-  background-color: #4C8DA6;
+  color: #333;
+  background-color: #fff;
   text-align:justify;
 }
 
@@ -271,8 +285,8 @@ clear:left;
 
 .jumbotron {
   padding: 10px;
-  color: rgba(255, 255, 255, 0.9);
-  background-color: #3A6C7F;
+  color: #333;
+  background-color: #f2f2f2;
   margin-bottom:0;
   margin-left:0;
   margin-right:0;
@@ -281,37 +295,66 @@ font-size: 14px;
 line-height: 20px;
   word-spacing: 1px;
   text-align:center;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+     margin-left:5px;
 }
 
 .navbar-fixed-top {
-  background-color: #3D3D3D;
-  border-color: #3D3D3D;
+  background-color: #000;
+  border-color: #000;
   margin-bottom:0;
-  font-family: 'Roboto',sans-serif;
+  height: 48px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
-
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 }
 
 .navbar-fixed-top .navbar-brand {
   color: rgba(255, 255, 255, 0.9);
   background-color:transparent;
+
+}
+
+.navbar-fixed-top >a:hover 
+.navbar-fixed-top >a:focus{
+   color: rgba(51,51,51,0.6);
+  background-color: transparent;
 }
 
 .navbar-fixed-top .navbar-nav > li > a {
   color: #ffffff;
+  font-size:13px;
+  background-color: transparent;
+ 
+}
+
+.navbar-right{
+   margin-right:1px;
 }
 .navbar-fixed-top .navbar-nav > li > a:hover,
 .navbar-fixed-top .navbar-nav > li > a:focus {
-  color: #ffffff;
-  background-color: #97310e;
+      opacity: .65;
+  background-color: transparent;
 }
 .navbar-fixed-top .navbar-nav > .active > a,
 .navbar-fixed-top .navbar-nav > .active > a:hover,
 .navbar-fixed-top .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #97310e;
+      opacity: .65;
+  background-color: transparent;
 }
 
 .flag{
@@ -320,27 +363,32 @@ line-height: 20px;
 
 .modal-footer{
   margin-top:0px;
-  padding:5px;
-  background-color: #3D3D3D;
-  color:#C0C0C0;
-  text-align: left;
-  font-family: 'Roboto',sans-serif;;
+  padding-top:10px;
+
+  padding-bottom:0px;
+  background-color: #000;
+  color:#fff;
+  text-align: center;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .modal-footer a{
-  color:#C0C0C0;
+  color:#000;
 }
 
 .modal-content {
   position: relative;
-  background-color: #3D3D3D;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #000;
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: none;
+  padding:0px;
+}
+.modal-body {
+    position: relative;
+    padding: 2px;
 }
 
  .lettrine {
@@ -358,7 +406,7 @@ line-height: 20px;
   border-color: #dd4814;}
 
   a{
-    color:#FFE019;
+    color:#0070c9;
   }
 
   input{
@@ -372,16 +420,25 @@ line-height: 20px;
   .page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 2px solid #FFE019;
+    border-bottom: 2px solid #0070c9;
 }
 
 
 h2{
-  color: #FFE019;
+  color: #0070c9;
 }
 
 h2> small{
-  color:#fff;
+  color:#000;
+}
+
+.thumbnail{ 
+   display: inline-block;
+   width: 19%; //this would be if you would perhaps want 5 thumbnails in a row I have know idea how many you want on a row
+}
+
+.thumbnail>img{
+  height:50%;
 }
 
 .asideproject > p{
@@ -408,7 +465,7 @@ h2> small{
 }
 
 .resume-preview{
-  margin-bottom:252px;
+  margin-bottom:35px;
   margin-left:auto;
   margin-right:auto;
   text-align:center;

@@ -22,7 +22,7 @@
       <!-- Barre de navigation --> 
       <nav class="navbar navbar-fixed-top">
         <div class="navbar-inner">
-        <div class="container">
+        <div>
           <div class="navbar-header">
             <a class="navbar-brand" href="#">quentinkeunebroek.fr</a>
           </div>
@@ -40,7 +40,7 @@
         </div>
       </nav>
 
-      <div class="container" id="home" id="projects"> 
+      <div id="home" id="projects"> 
         <div ng-view></div> 
         <div ng-show="home==true">
           <!-- Hero-Unit --> 
@@ -49,7 +49,8 @@
             <h3>{{'WELCOME' | translate}} <i class="fa fa-apple"></i></h3>
           </div>
 
-          <!--Contenu principal-->        
+          <!--Contenu principal-->    
+          <div class="container">    
           <div class="row" id="presentation">
             <div class="span8">
               <div class="paddedbis">
@@ -85,8 +86,10 @@
               </div>
             </div>
           </div>
+          </div>
 
           <br><br>
+          <div class="container">
           <div class="photos">
             <div class="thumb">
                 <a href="" ng-click="sf=true;nevada=false;hollywood=false;bridge=false;lake=false;mission=false;beach=false;apple=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/sanfrancisco.jpg" alt="Photographie"/></a>
@@ -120,6 +123,7 @@
                 <a href="" ng-click="apple=true;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false;beach=false;peche=false;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false" class="pop"><img src="images/apple.jpg" alt="Photographie" /></a>
             </div>
           </div>
+          </div>
 
         </div>
       </div>
@@ -132,7 +136,7 @@
                   <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
            </div>
       </div>
-      <div class="container">
+      <div>
         <div ng-show="projects==true">
           <!-- Hero-Unit --> 
           <div class="hero-unit2">
@@ -140,6 +144,8 @@
           </div>
           </header>
 
+
+          <div class="container">
           <div class="span8">
             <div class="row">
             <input placeholder="{{ 'SEARCH' | translate }}"  type="text" value="{{project.title | translate}}" ng-model="search.key"/>
@@ -182,7 +188,9 @@
               </div>
               </div>
           </div>
+          </div>
 
+          <div class="container">
           <div class="photos">
             <div class="thumb">
               <a href="" ng-click="peche=true;quiberon=false;plessis=false;banc=false;plage=false;berlin=false;compiegne=false;lavande=false;beach=false;apple=false;sf=false;nevada=false;hollywood=false;bridge=false;lake=false;mission=false" class="pop">
@@ -225,6 +233,7 @@
               </a>
             </div>  
           </div>
+          </div>
 
 
         </div>
@@ -237,7 +246,6 @@
           <img src="" class="imagepreview" style="width: 100%;">
         </div> 
         <div class="modal-footer">
-          <a href="" class="pull-right" data-dismiss="modal">Close</a>
           <p ng-show="sf==true">Twin Peaks (San Francisco, California)</p>
           <p ng-show="nevada==true">Lake Tahoe (Nevada)</p>
           <p ng-show="apple==true">Apple Campus, One Infinite Loop (Cupertino, California)</p>
@@ -259,10 +267,8 @@
     </div>
   </div>
 
-  <div class="container">
   <div id="footer">
       <p class="jumbotron">&copy - Quentin Keunebroek - 2017<br>Paris / San Francisco<br>quentin.keunebroek@gmail.com</p>
-  </div>
   </div>
 
   </body>
