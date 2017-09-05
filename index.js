@@ -128,9 +128,9 @@
           METHOD_GENERAL:"This project was realized within a value analysis class with the help of 7 other students, in Fall 2013.",
           METHOD_GOAL:"The aim was to establish a general methodology of the contemporary engineer. How is the engineer supposed to act in today's organisations? What competencies should he use in order to manage complex projects? What tools are needed to lead a team of experts?",
           METHOD_PERSONAL:"Engineers are technology enthusiasts who are able to think about the human stakes of today's technologies. Also, they are methodologists whose expertise is defined in terms of questioning. He's not a scientist anymore, who just applies his knowledge but a player of the current complexity. Finally, he is a leader, a pedagogue who knows how to put labor groups in innovation states leading to success.",
-          METHOD_ASIDE_FIRST:"Theatre Conservatory",
-          METHOD_ASIDE_SECOND:"Ermont-Eaubnne",
-          METHOD_ASIDE_THIRD:"2002-2012",
+          METHOD_ASIDE_FIRST:"Contemporary Engineer's Methodology",
+          METHOD_ASIDE_SECOND:"Value Analysis (8 students)",
+          METHOD_ASIDE_THIRD:"Fall 2013 (UTC, Compiègne)",
           METHOD_LINK: "",
           CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_resume.pdf'><img src='images/Keunebroek_Quentin_resume.png' width='400px'/></a>",
   			})
