@@ -40,12 +40,12 @@ background-size: 100% 100%;
 
   aside {
     position: relative;
-background-color: #000;
-    background-image: -moz-linear-gradient(top, #000,#000);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#000));
-    background-image: -webkit-linear-gradient(top, #000, #000);
-    background-image: -o-linear-gradient(top, #000, #000);
-    background-image: linear-gradient(to bottom, #000, #000);
+background-color: #333;
+    background-image: -moz-linear-gradient(top, #333,#333);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333), to(#333));
+    background-image: -webkit-linear-gradient(top, #333, #333);
+    background-image: -o-linear-gradient(top, #333, #333);
+    background-image: linear-gradient(to bottom, #333, #333);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffad1d28', endColorstr='#ffad1d28', GradientType=0);
     border: 1px solid #3A6C7F;
@@ -61,12 +61,12 @@ background-color: #000;
 
 .asideproject{
  position: relative;
-background-color: #000;
-    background-image: -moz-linear-gradient(top, #000,#000);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#000));
-    background-image: -webkit-linear-gradient(top, #000, #000);
-    background-image: -o-linear-gradient(top, #000, #000);
-    background-image: linear-gradient(to bottom, #000, #000);
+background-color: #333;
+    background-image: -moz-linear-gradient(top, #333,#333);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333), to(#333));
+    background-image: -webkit-linear-gradient(top, #333, #333);
+    background-image: -o-linear-gradient(top, #333, #333);
+    background-image: linear-gradient(to bottom, #333, #333);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffad1d28', endColorstr='#ffad1d28', GradientType=0);
     border: 1px solid #3A6C7F;
@@ -87,13 +87,13 @@ aside h3{
 }
 
 #bulle {position: relative;
-background: #000; /** couleur du fond (se retrouve 2 fois) **/
+background: #333; /** couleur du fond (se retrouve 2 fois) **/
 width:0px; height:0px;} /** dimensions de la cellule (du cadre) **/
 #bulle:after, #bulle:before {right: 100%; /** right pour mettre la flèche à gauche ! **/
 border: solid transparent; content: ""; position: absolute;}
-#bulle:after {border-right-color: #000; /** 2e indication de couleur du fond **/}
+#bulle:after {border-right-color: #333; /** 2e indication de couleur du fond **/}
 
-#bulle:before {border-right-color: #000; /** 2e indication de la couleur de la bordure **/
+#bulle:before {border-right-color: #333; /** 2e indication de la couleur de la bordure **/
 border-width: 30px; /** indication de la grandeur de la flèche +7px **/
 top: 30%; /** 2e indication de la position de la flèche **/
 margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur négative) **/
@@ -101,9 +101,10 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
 .asides{
  margin-left:40px;
  margin-bottom:15px;
- border: solid 2px #000;
+ border: solid 2px #333;
  display: inline-block;
- background-color: #000;
+
+ background-color: #333;
  color: rgba(255, 255, 255, 0.9);
  padding-left:10px;
  padding-right:10px;
@@ -124,6 +125,9 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
 .paddedbis{
     padding-left: 35px;
   padding-right: 35px;  
+  font-size:1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
 }
 
 .padded{
@@ -285,8 +289,8 @@ clear:left;
 
 .jumbotron {
   padding: 10px;
-  color: #333;
-  background-color: #f2f2f2;
+  color: #fff;
+  background-color: #333;
   margin-bottom:0;
   margin-left:0;
   margin-right:0;
@@ -309,7 +313,7 @@ line-height: 20px;
 }
 
 .navbar-fixed-top {
-  background-color: #000;
+  background-color: hsla(0,0%, 100%,.95);
   border-color: #000;
   margin-bottom:0;
   height: 48px;
@@ -321,11 +325,17 @@ line-height: 20px;
     user-select: none;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    border-color:rgba(51,51,51,0.6);
+
 }
 
 .navbar-fixed-top .navbar-brand {
-  color: rgba(255, 255, 255, 0.9);
+  color: #333;
   background-color:transparent;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  font-size:1.5rem;
+
 
 }
 
@@ -336,9 +346,10 @@ line-height: 20px;
 }
 
 .navbar-fixed-top .navbar-nav > li > a {
-  color: #ffffff;
-  font-size:13px;
+  color: #333;
+  font-size:1.3rem;
   background-color: transparent;
+   letter-spacing: 0.05rem;
  
 }
 
@@ -373,12 +384,12 @@ line-height: 20px;
 }
 
 .modal-footer a{
-  color:#000;
+  color:#333;
 }
 
 .modal-content {
   position: relative;
-  background-color: #000;
+  background-color: #333;
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);

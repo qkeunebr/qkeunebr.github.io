@@ -3,20 +3,23 @@
     		$translateProvider.translations('en', {
     			
           TITLE_HOME: 'Home',
-    			NAVBAR_HOME: 'Home',
-    			NAVBAR_PROJECTS: 'Projects',
-          NAVBAR_CV: 'Resume',
-    			NAVBAR_CONTACT: 'Contact',
+    			NAVBAR_HOME: 'HOME',
+    			NAVBAR_PROJECTS: 'PROJECTS',
+          NAVBAR_CV: 'RESUME',
+    			NAVBAR_CONTACT: 'CONTACT',
     			WELCOME: 'Welcome',
-    			GENERAL: "Hello ! My name is Quentin Keunebroek and I'm a 23-year-old French Engineer Student at the <a target='blank' href='http://www.utc.fr/the_university/index.php'>University of Technology of Compiègne</a>. This website is aimed at introducing myself as well as presenting the main projects I've been working on over the last few years.",
-    			STUDIES: "I'm currently doing a Master's degree in Computer Science and I'm graduating in September. I also have a Bachelor's degree in Engineering and Human Sciences, called <a target='blank' href='http://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/humanities-and-technology-course-hutech.html'>Humanities and Technology</a>, which is aimed at better understanding the human, economic and environmental stakes of current technologies. I just got back from a 6-month internship as a Software Engineer at <a target='blank' href='http://www.apple.com/ '>Apple, Inc.</a> in Cupertino (California). I'm now looking for a full-time job, where skills in project management, software design and productivity will contribute to challenging huge software projects!",
+    			GENERAL: "Hello ! My name is Quentin, I'm 23, French and I work at Apple. This website is aimed at introducing myself as well as presenting the main projects I've been working on over the last few years. ",
+    			STUDIES: "In 2017, I graduated with a Master's degree in Computer Science from the University of Technology of Compiègne (France). Before starting my full-time at Apple, I did two 6-month internships as a Software Engineer in the same company, in California. Living the American dream was definitely more exciting than everything I could have expected. I have learned so much and met so many smart people from all around the world. I'm very grateful for this amazing Californian journey. It'll always be hard to explain how attached and indebted I am to Apple.",
     			GOAL: "On this website, you can have a look at my projects, check out my resume and get in touch with me ! Browse safe ! ヅ",
     			BUTTON_TEXT_EN: 'English',
     			BUTTON_TEXT_DE: 'German',
     			BUTTON_TEXT_FR: 'French',
     			TITLE_ASIDE: 'About me',
-    			TEXT_ASIDE: 'My name is Quentin Keunebroek. I am a Software Engineer Student at the University of Technology of Compiègne (<a href="http://www.utc.fr" target="blank">www.utc.fr</a>).',
-    			SOCIAL_NETWORK: 'Follow me on social networks !',
+    			TEXT_ASIDE: 'Quentin Keunebroek',
+          TEXTSECOND_ASIDE: 'Works at Apple',
+          TEXTTHIRD_ASIDE: 'Former Software Engineer Student at UTC',
+    			SOCIAL_NETWORK: 'Follow me on social networks!',
+          PROJECTS_TITLE: 'Projects',
           SEARCH: 'Project title',
           HUTECH_TITLE: "Humanities and Technology",
           HUTECH_TITLE_MIN: "New Bachelor of Engineering at the UTC",
@@ -142,19 +145,23 @@
   			})
   			  .translations('fr', {
   			 	TITLE_HOME: 'Accueil',
-  			 	NAVBAR_HOME: 'Accueil',
-  			 	NAVBAR_PROJECTS: 'Projets',
+  			 	NAVBAR_HOME: 'ACCUEIL',
+  			 	NAVBAR_PROJECTS: 'PROJETS',
   			 	NAVBAR_CV: 'CV',
-  			 	NAVBAR_CONTACT: 'Contact',
+  			 	NAVBAR_CONTACT: 'CONTACT',
   			 	WELCOME: 'Bienvenue',
-    			GENERAL: "Bonjour ! Je m'appelle Quentin Keunebroek, j'ai 23 ans et je suis étudiant-ingénieur à <a target='blank' href='http://www.utc.fr'>l'Université de Technologie de Compiègne</a>. Ce site a pour objectifs de me présenter ainsi que faire découvrir les principaux projets auxquels j'ai participé ces dernières années.",
-    			STUDIES: "J'effectue actuellement un Master en Sciences de l'Informatique et je serai diplômé en septembre. Je suis aussi titulaire du Bachelor <a target='blank' href='http://www.utc.fr/formations/diplome-dingenieur/cursus-humanites-et-technologie-hutech.html'>Humanités et Technologie</a>. Ce cursus innovant, qui allie Ingénierie et Sciences Humaines, vise à former des ingénieurs capables de mieux appréhender les enjeux humains, économiques, et environnementaux des technologies actuelles. Je reviens tout juste d'un stage de 6 mois en tant qu'Ingénieur Informatique chez <a target='blank' href='http://www.apple.com/fr/'>Apple, Inc.</a> à Cupertino (Californie)! Je suis en ce moment à la recherche d'un CDI!",
+    			GENERAL: "Bonjour ! Je m'appelle Quentin, j'ai 23 ans et je travaille chez Apple. Ce site a pour objectifs de me présenter ainsi que faire découvrir les principaux projets auxquels j'ai participé ces dernières années.",
+    			STUDIES: "En 2017, j'ai obtenu un diplôme d'Ingénieur en Informatique à l'Université de Technologie de Compiègne. Avant d'être embauché, j'ai effectué deux stages de 6 mois chez Apple, en tant qu'Ingénieur Informatique. Cette expérience californienne était extrêmement riche; j'ai beaucoup appris et rencontré plein d'autres employés venus du monde entier. Je suis très reconnaissant de la chance qui m'a été offerte et très attaché à l'entreprise ainsi qu'à ses employés. ",
     			GOAL: "Sur ce site, vous pouvez voir mes projets, jeter un coup d'oeil à mon CV et prendre contact avec moi. Bonne visite ! ヅ",
     			BUTTON_TEXT_EN: 'Anglais',
     			BUTTON_TEXT_FR: 'Français',
     			TITLE_ASIDE: 'À propos de moi',
-    			TEXT_ASIDE: "Je m'appelle Quentin Keunebroek. Je suis étudiant-ingénieur à l'Université de Technologie de Compiègne. (<a href='http://www.utc.fr' target='blank'>www.utc.fr</a>)",
-    			SOCIAL_NETWORK: 'Retrouvrez-moi sur les réseaux sociaux !',
+    			TEXT_ASIDE: "Quentin Keunebroek",
+
+    			TEXTSECOND_ASIDE: 'Travaille chez Apple',
+          TEXTTHIRD_ASIDE: 'Ancien Étudiant-Ingénieur à l\'UTC',
+          SOCIAL_NETWORK: 'Retrouvrez-moi sur les réseaux sociaux !',
+          PROJECTS_TITLE: 'Projets',
           SEARCH: 'Titre de projet',
           HUTECH_TITLE: "Humanités et Technologie",
           HUTECH_TITLE_MIN: "Un nouveau cursus d'ingénieurs à l'UTC",
@@ -286,7 +293,7 @@
 app.constant('ProjectsTitles', [
     {id: 1, key:'GeoCatch',  title: 'GEO_TITLE', small: 'GEO_TITLE_MIN', general: 'GEO_GENERAL', goal: 'GEO_GOAL', personal: 'GEO_PERSONAL', firstaside: "GEO_ASIDE_FIRST", secondaside: "GEO_ASIDE_SECOND", thirdaside: "GEO_ASIDE_THIRD", linkaside: "GEO_LINK", image: 'images/logo.png'},
     {id: 2, key:'UTComputer',  title: 'UTComputer_TITLE', small: 'UTComputer_TITLE_MIN', general: 'UTComputer_GENERAL', goal: 'UTComputer_GOAL', personal: 'UTComputer_PERSONAL', firstaside: "UTComputer_ASIDE_FIRST", secondaside: "UTComputer_ASIDE_SECOND", thirdaside: "UTComputer_ASIDE_THIRD", linkaside: "UTComputer_LINK", image: 'images/UTComputer.png'},
-    {id: 3, key:'SorbonneONU',  title: 'SorbonneONU_TITLE', small: 'SorbonneONU_TITLE_MIN', general: 'SorbonneONU_GENERAL', goal: 'SorbonneONU_GOAL', personal: 'SorbonneONU_PERSONAL', firstaside: "SorbonneONU_ASIDE_FIRST", secondaside: "SorbonneONU_ASIDE_SECOND", thirdaside: "SorbonneONU_ASIDE_THIRD", linkaside: "SorbonneONU_LINK", image: 'images/SorbonneONU.jpg'},
+    //{id: 3, key:'SorbonneONU',  title: 'SorbonneONU_TITLE', small: 'SorbonneONU_TITLE_MIN', general: 'SorbonneONU_GENERAL', goal: 'SorbonneONU_GOAL', personal: 'SorbonneONU_PERSONAL', firstaside: "SorbonneONU_ASIDE_FIRST", secondaside: "SorbonneONU_ASIDE_SECOND", thirdaside: "SorbonneONU_ASIDE_THIRD", linkaside: "SorbonneONU_LINK", image: 'images/SorbonneONU.jpg'},
 
     {id: 4, key:'Pegass Croix Rouge française',  title: 'CROIX_TITLE', small: 'CROIX_TITLE_MIN', general: 'CROIX_GENERAL', goal: 'CROIX_GOAL', personal: 'CROIX_PERSONAL', firstaside: "CROIX_ASIDE_FIRST", secondaside: "CROIX_ASIDE_SECOND", thirdaside: "CROIX_ASIDE_THIRD", linkaside: "CROIX_LINK", image: 'images/croix-rouge.png'},
     {id: 5, key:'BiPod iOS Health Santé App Start-up française french', title: 'BIO_TITLE', small: 'BIO_TITLE_MIN', general: 'BIO_GENERAL', goal: 'BIO_GOAL', personal: 'BIO_PERSONAL', firstaside: "BIO_ASIDE_FIRST", secondaside: "BIO_ASIDE_SECOND", thirdaside: "BIO_ASIDE_THIRD", image: 'images/health.png'},
@@ -335,7 +342,7 @@ app.run(function ($browser) {
   $scope.activeMenu = $scope.menuItems[0];
 
 
-
+  $scope.date= new Date();
    $scope.setActive = function(menuItem) {
     $scope.activeMenu = menuItem
  }
