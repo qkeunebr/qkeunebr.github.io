@@ -151,7 +151,7 @@
   			 	NAVBAR_CONTACT: 'CONTACT',
   			 	WELCOME: 'Bienvenue',
     			GENERAL: "Bonjour ! Je m'appelle Quentin, j'ai 23 ans et je travaille chez Apple. Ce site a pour objectifs de me présenter ainsi que faire découvrir les principaux projets auxquels j'ai participé ces dernières années.",
-    			STUDIES: "En 2017, j'ai obtenu un diplôme d'Ingénieur en Informatique à l'Université de Technologie de Compiègne. Avant d'être embauché, j'ai effectué deux stages de 6 mois chez Apple, en tant qu'Ingénieur Informatique. Cette expérience californienne était extrêmement riche; j'ai beaucoup appris et rencontré plein d'autres employés venus du monde entier. Je suis très reconnaissant de la chance qui m'a été offerte et très attaché à l'entreprise ainsi qu'à ses employés. ",
+    			STUDIES: "En 2017, j'ai obtenu un diplôme d'Ingénieur en Informatique à l'Université de Technologie de Compiègne. Avant d'être embauché, j'ai effectué deux stages de 6 mois chez Apple, en tant qu'Ingénieur Informatique. Cette expérience californienne était extrêmement riche; j'ai beaucoup appris et rencontré plein d'autres personnes venues du monde entier. Je suis très reconnaissant de l'opportunité qui m'a été offerte et très attaché à l'entreprise ainsi qu'à ses employés. ",
     			GOAL: "Sur ce site, vous pouvez voir mes projets, jeter un coup d'oeil à mon CV et prendre contact avec moi. Bonne visite ! ヅ",
     			BUTTON_TEXT_EN: 'Anglais',
     			BUTTON_TEXT_FR: 'Français',
