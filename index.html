@@ -54,28 +54,37 @@
           <!--Contenu principal-->    
           <div class="container">    
           <div class="row" id="presentation">
-            <div class="span8">
+            
+              <h1 align="center">Hello</h1>
               <div class="paddedbis">
                 <p translate="{{ 'GENERAL' }}"></p><br>
                 <p translate="{{ 'STUDIES'}}"></p><br>
                 <p translate="{{ 'GOAL' }}"></p><br>
+                <ul class="social-links">
+                    <li><a target="blank" href="https://www.facebook.com/quentin.keunebroek"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="blank" href="https://twitter.com/QKeunebroek"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="blank" href="https://plus.google.com/117657267842663950482/posts"><i class="fa fa-google-plus"></i> </a>
+                    <li><a target="blank" href="http://instagram.com/qkeunebr"><i class="fa fa-instagram"></i> </a></li>
+                  </ul>
                 <div class="right top-spaced" align="right">
                   <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
                   <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
                   <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
+
                 </div>
+
               </div> 
-            </div>
-            <div class="span4">
+            <!-- <div class="span4">
               <div class="paddedbis">
               <aside>
                 <h4 align="center" ng-show="currentlanguage=='fr'">{{'TITLE_ASIDE' | translate}}  <img class="flag" src="images/french.png" width="30px"/> </h4>
                 <h4 align="center" ng-show="currentlanguage=='en'">{{'TITLE_ASIDE' | translate}}  <img class="flag" src="images/american.png" width="30px"/></h4>
                 <div id="bulle">
                 </div>
-                  <img src="images/quentin.jpg" id="image">
-                  <p align="center" translate="{{'TEXT_ASIDE'}}"></p>
-                  <p align="center" translate="{{'TEXTSECOND_ASIDE'}}"></p>
+                  <img src="images/quentin.jpg" id="image"> -->
+                 <!--  <p align="center" translate="{{'TEXT_ASIDE'}}"></p> -->
+                  <!-- <p align="center" translate="{{'TEXTSECOND_ASIDE'}}"></p>
                   <p align="center" translate="{{'TEXTTHIRD_ASIDE'}}"></p>
                   <p align="center" ng-show="currentlanguage=='fr'">{{'SOCIAL_NETWORK' | translate}}</p>
                   <p align="center" ng-show="currentlanguage=='en'">{{'SOCIAL_NETWORK' | translate}}</p>
@@ -88,11 +97,12 @@
                   </ul>
               </aside>
               </div>
-            </div>
+            </div> -->
           </div>
           </div>
 
           <br><br>
+          
           <div class="container">
           <div class="photos">
             <div class="thumb">
@@ -132,13 +142,16 @@
         </div>
       </div>
       <div ng-show="cv==true">
-          <div class="titlename">Quentin Keunebroek</div>
+          <div class="hero-unit3">
+            <h1>{{'RESUME' | translate}}</h1>
+          </div>
           <div class="resume-preview" translate="{{ 'CV_PIC' }}"></div>
           <div class="right top-spaced" align="center">
                   <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
                   <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
                   <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
-           </div>
+          </div>
+          <br>
       </div>
       <div>
         <div ng-show="projects==true">
@@ -150,6 +163,7 @@
 
 
           <div class="container">
+          <h1 align="center">{{'PROJECTS_TITLE' | translate}}</h1>
           <div class="span8">
             <div class="row">
             <input placeholder="{{ 'SEARCH' | translate }}"  type="text" value="{{project.title | translate}}" ng-model="search.key"/>
@@ -162,7 +176,7 @@
            
           </div>
           <div ng-controller="TranslateController">
-            <div class="row" id="presentation">
+            <div class="row" id="presentation2">
             <div ng-repeat="project in projects | filter:search">
                 <div class="span8">
                 <div class="padded">
@@ -271,9 +285,57 @@
     </div>
   </div>
 
-  <div id="footer">
+ <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <img src="images/canyon.jpg" alt="Grand Canyon" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h4>&copy Quentin Keunebroek •  {{date | date:'yyyy'}}</h4>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="images/sf.jpg" alt="San Francisco" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h4>Paris • San Francisco • Cork</h4>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="images/tankhill.jpg" alt="Tank Hill" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h4>Powered by Twitter Bootstrap</h4>
+                  </div>
+                </div>
+            
+              </div>
+
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div> -->
+
+
+            <div class="footer-unit">
+            <h4 align="center">&copy Quentin Keunebroek • {{date | date:'yyyy'}}</h4>
+            <h4 align="center">Paris • San Francisco • Cork</h4>
+            <h4 align="center">Powered by Twitter Bootstrap</h4>
+          </div>
+
+
+<!--   <div id="footer">
       <p class="jumbotron">&copy •  Quentin Keunebroek •  {{date | date:'yyyy'}}<br>Paris • San Francisco • Cork</p>
-  </div>
+  </div> -->
 
   </body>
   </html>

@@ -142,7 +142,8 @@
           METHOD_ASIDE_THIRD:"Fall 2013 (UTC, Compiègne)",
           METHOD_LINK: "",
           CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_resume.pdf'><img src='images/Keunebroek_Quentin_resume.png' width='400px'/></a>",
-  			})
+  			  RESUME: 'Resume',
+        })
   			  .translations('fr', {
   			 	TITLE_HOME: 'Accueil',
   			 	NAVBAR_HOME: 'ACCUEIL',
@@ -285,7 +286,7 @@
           METHOD_ASIDE_THIRD:"Automne 2013 (UTC, Compiègne)",
           METHOD_LINK: "",
           CV_PIC:"<a class='cveffect' target='blank' href='pdf/Keunebroek_Quentin_CV.pdf'><img src='images/Keunebroek_Quentin_CV.png'width='400px'/></a>",
-
+          RESUME: 'CV',
   			});
   			$translateProvider.preferredLanguage('en');
 	});//angular is the library, store the name of the module and the [] stands for dependencies. 
