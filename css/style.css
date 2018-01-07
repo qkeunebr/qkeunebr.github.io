@@ -1,5 +1,6 @@
 .hero-unit{
   padding: 160px;
+
   margin-bottom:30px;
   background-image: url(../images/canyon.jpg); 
 background-position: center;
@@ -377,7 +378,7 @@ line-height: 20px;
   padding-top:10px;
 
   padding-bottom:0px;
-  background-color: #000;
+  background-color: #333;
   color:#fff;
   text-align: center;
   font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
