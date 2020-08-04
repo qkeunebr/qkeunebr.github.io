@@ -1,6 +1,6 @@
 .hero-unit{
   padding: 350px;
-  padding-top:500px;
+  padding-top:470px;
   margin-bottom:50px;
   background-image: url(../images/profil.jpg); 
 background-position: center;
@@ -12,14 +12,22 @@ background-position:0% 35%;
 -o-background-size: 100% 100%;        
 -webkit-background-size: 100% 100%;   
 background-size: 100% 100%;    */  
-  color: black;
-  font-size:15px;
+  color: white;
+
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
       font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
   }
+
+.hero-unit h1{
+  font-size:50px;
+}
+
+.hero-unit h3{
+  font-size:35px;
+}
 
 
 .footer-unit{
@@ -361,6 +369,10 @@ line-height: 20px;
 
 }
 
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 .navbar-brand {
     float: left;
     height: 50px;
@@ -374,7 +386,7 @@ line-height: 20px;
   background-color: hsla(0,0%, 100%,.95);
   border-color: #000;
   margin-bottom:0;
-  height: 48px;
+    height: 48px;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -392,9 +404,7 @@ line-height: 20px;
   background-color:transparent;
   font-weight: 800;
   letter-spacing: 0.05rem;
-  font-size:1.5rem;
-
-
+  font-size:3.5rem;
 }
 
 .navbar-fixed-top >a:hover 
@@ -405,7 +415,7 @@ line-height: 20px;
 
 .navbar-fixed-top .navbar-nav > li > a {
   color: #333;
-  font-size:1.3rem;
+  font-size:1.7rem;
   background-color: transparent;
    letter-spacing: 0.05rem;
  

@@ -24,11 +24,8 @@
         <nav class="navbar navbar-fixed-top">
           <div class="navbar-inner">
           <div>
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">quentinkeunebroek.fr</a>
-            </div>
             <div class="collapse navbar-collapse" ng-init="home=true;projects=false;cv=false">
-              <ul class="nav navbar-nav navbar-right" >
+              <ul class="nav navbar-nav" >
                 <li ng-class="{true:'active'}[home==true]"><a href="#home" ng-click="home=true;projects=false;cv=false;scrollTo('home')">{{'NAVBAR_HOME'| translate}}</a></li>
                 <li ng-class="{true:'active'}[cv==true]"><a href="#resume" ng-click="projects=false;home=false;cv=true;scrollTo('projects')
                 ">{{'NAVBAR_CV'| translate}}</a></li>
