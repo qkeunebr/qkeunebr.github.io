@@ -1,99 +1,316 @@
-  <!DOCTYPE HTML>
-  <html>
-    <head>
-      <meta charset="utf-8">
-  	  <title>Quentin Keunebroek</title>
-      <script src="//ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-sanitize.js" type="text/javascript"></script> 
-      <script type="text/javascript" src="angular.min.js"></script>
-      <script type="text/javascript" src="index.js"></script>
-      <script type="text/javascript" src="angular-translate.min.js"></script>
-      <script type="text/javascript" src="angular-cookies.min.js"></script>
-      <script type="text/javascript" src="angular-translate-storage-local.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-      <link href="css/angular-carousel.css" rel="stylesheet" type="text/css" />
-  	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-      <link rel="stylesheet" type="text/css" href="css/style.css"/>
-      <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    </head>
-    <body ng-app="PersonalWebsite" ng-controller='TranslateController as PersonalWebsite'>
-      <!-- Barre de navigation --> 
-      <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top">
-          <div class="navbar-inner">
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quentin Keunebroek</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-sanitize.js" type="text/javascript"></script>
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="angular-translate.min.js"></script>
+    <script type="text/javascript" src="angular-cookies.min.js"></script>
+    <script type="text/javascript" src="angular-translate-storage-local.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <link href="css/angular-carousel.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body ng-app="PersonalWebsite" ng-controller='TranslateController as PersonalWebsite'>
+    <!-- Barre de navigation -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">quentinkeunebroek.fr</a>
+          </div>
           <div>
-            <div class="collapse navbar-collapse" ng-init="home=true;projects=false;cv=false">
+            <div class="collapse navbar-collapse navbar-right">
               <ul class="nav navbar-nav" >
-                <li ng-class="{true:'active'}[home==true]"><a href="#home" ng-click="home=true;projects=false;cv=false;scrollTo('home')">{{'NAVBAR_HOME'| translate}}</a></li>
-                <li ng-class="{true:'active'}[cv==true]"><a href="#resume" ng-click="projects=false;home=false;cv=true;scrollTo('projects')
-                ">{{'NAVBAR_CV'| translate}}</a></li>
-                <li ng-show="currentlanguage=='en' || currentlanguage=='fr'"><a href="mailto:quentin.keunebroek@gmail.com">{{'NAVBAR_CONTACT'| translate}}</a></li>
+                <li><a id="about" href="">About</a></li>
+                <li><a id="cv" href="">Resume</a></li>
+                <li><a id="email">Contact</a></li>
               </ul>
             </div>
-           </div>
           </div>
-        </nav>
-      </div>
-
-      <div id="home" id="projects"> 
-        <div ng-view></div> 
-        <div ng-show="home==true">
-          <!-- Hero-Unit --> 
-          <div class="hero-unit">
-            <h1>Quentin Keunebroek</h1>
-            <ul class="social-links">
+        </div>
+      </nav>
+    </div>
+    <div id="home">
+      <div>
+        <!-- Hero-Unit -->
+        <div class="hero-unit">
+          <h1>Quentin Keunebroek</h1>
+          <ul class="social-links">
+            <li><a target="blank" href="https://www.facebook.com/quentin.keunebroek"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><i class="fa fa-linkedin"></i></a></li>
+            <li><a target="blank" href="https://twitter.com/QKeunebroek"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="blank" href="http://instagram.com/qkeunebr"><i class="fa fa-instagram"></i> </a></li>
+            <li><a target="blank" href="mailto:quentin.keunebroek@icloud.com"><i class="fa fa-apple"></i> </a></li>
+          </ul>
+        </div>
+        <!--Contenu principal-->
+        <div class="container">
+          <div class="row" id="presentation">
+            <div class="row">
+              <div class="col-sm-8" id="intro">
+                <h1 align="left">Hello</h1><br>
+                <p>My name's Quentin, I'm French and moved to San Francisco in 2019. I work at Apple as a Program Manager, on the Siri Product. I hold a Bachelors in Humanities and Engineering as well as a Masters in Computer Science from UTC (Univerisity of Technology in Compiègne).</p><br>
+                <p>Moving to California and living the American dream has definitely been more exciting than anything I could have imagined. The past few years have been full of challenges and learnings, and I have met incredible people from all around the world. I will never thank Apple enough for the opportunity of being part of such an amazing journey. I am deeply grateful for the trust I was given, and thankful to everyone who has supported me along the way.</p><br>
+                <p>This website is aimed at introducing myself, as well as presenting a few projects I have been working on over the past few years. Browse safe!</p>
+              </div>
+              <div class="col-sm-4" id="aside">
+                <h3>About me</h3>
+                <img src="images/quentin.jpeg" id="picture">
+                <div class="row item">Siri Engineering Program Manager, Apple</div>
+                <div class="row item">Former Computer Science student, UTC</div>
+                <div class="row item">San Francisco, California</div>
+                <div class="row centered">
+                  <ul class="about">
                     <li><a target="blank" href="https://www.facebook.com/quentin.keunebroek"><i class="fa fa-facebook"></i></a></li>
                     <li><a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><i class="fa fa-linkedin"></i></a></li>
                     <li><a target="blank" href="https://twitter.com/QKeunebroek"><i class="fa fa-twitter"></i></a></li>
                     <li><a target="blank" href="http://instagram.com/qkeunebr"><i class="fa fa-instagram"></i> </a></li>
-            </ul>
+                    <li><a target="blank" href="mailto:quentin.keunebroek@icloud.com"><i class="fa fa-apple"></i> </a></li>
+                </ul></div>
+              </div>
+            </div>
           </div>
-
-          <!--Contenu principal-->    
-          <div class="container">    
-          <div class="row" id="presentation">
-            
-              <h1 align="center">Hello</h1>
-              <div class="paddedbis">
-                <p>My name's Quentin, I'm French and moved to San Francisco in 2019. I'm currently a Program Manager at Apple, working on the Siri Product. I hold a Bachelors in Humanities and Engineering as well as a Masters in Computer Science from UTC (Univerisity of Technology in Compiègne).</p><br>
-                <p>Moving to California and living the American dream has definitely been more exciting than anything I could have imagined. The past few years have been full of challenges and learnings, and I have met incredible people from all around the world. I will never thank Apple enough for the opportunity of being part of such an amazing journey. I am deeply grateful for the trust I was given, and thankful to everyone who has supported me along the way.</p><br>
-                <p>This website is aimed at introducing myself, as well as presenting a few projects I have been working on over the past few years. Browse safe!</p><br>
-               
-              </div> 
-
+        </div>
+        <div class="container">
+          <div class="row" id="resume">
+            <div class="row">
+              <div class="col-sm-8">
+                <h1 align="left">Resume</h1><br>
+              </div>
+              <div class="col-sm-4"></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <h3 align="left">Education</h3><br>
+                <h4 class="resume-item-title"><b>University of Technology in Compiègne</b>, France</h4>
+                <div class="resume-items">
+                  <h5><b>Masters in Computer Science</b></h5>
+                  <p>Specialization in software design, AI and human-computer interactions.<br>
+                  Minor in Philosophy, Technology and Cognition .</p>
+                </span>Sept. 2015 - Sept. 2017</span>
+                <h5><b>Bachelors in Humanities & Engineering</b></h5>
+                <p>Mathematics, OOP, algorithms, data structure, database, philosophy, tech history, economics, languages.</p>
+              </span>Sept. 2012 - Sept. 2015</span>
+            </div><br>
+            <h4 class="resume-item-title"><b>Technische Universität Braunschweig</b>, Germany</h4>
+            <div class=resume-items>
+              <h5><b>Erasmus Exchange Program</b></h5>
+              <p>Applied mathematics, Computer networks, C, Java, Interculturality..</p>
+            </span>April. 2014 - July. 2014</span>
           </div>
+        </div>
+        <div class="col-sm-6">
+          <h3 align="left">Experience</h3><br>
+          <h4 class="resume-item-title"><b>Apple</b></h4>
+          <div class="resume-items">
+            <h5><b>Siri Engineering Program Manager</b></h5>
+            <span>April 2020 - Today</span>
+            <h5><b>Siri International Quality Engineering Lead</b></h5>
+            <span>Jan. 2018 - March 2020</span>
+            <h5><b>Software Quality Engineering Intern, Siri International</b></h5>
+            <span>Feb. 2017 - July 2017</span>
+            <h5><b>Software Engineering Intern, Siri International</b></h5>
+            <span>April. 2015 - August 2015</span>
+          </div><br>
+          <h4 class="resume-item-title"><b>Groupe Marie Claire</b></h4>
+          <div class="resume-items">
+            <h5><b>Software Engineering Intern</b></h5>
+            <span>Jan. 2014 - March 2014</span>
           </div>
-
-          <br><br>
-          
-
-
         </div>
       </div>
-      <div ng-show="cv==true">
-          <div class="hero-unit3">
-            <h1>{{'RESUME' | translate}}</h1>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 align="left">Certifications</h3><br>
+          <h4 class="resume-item-title"><b>Digital Product Management: Modern Fundamentals</b></h4>
+          <div class="resume-items">
+            <h5><b>University of Virginia, Coursera</b></h5>
+            <span>Jun. 2020</span>
+          </div><br>
+          <h4 class="resume-item-title"><b>Machine Learning</b></h4>
+          <div class="resume-items">
+            <h5><b>Stanford University, Coursera</b></h5>
+            <span>Jun. 2020</span>
           </div>
-          <p class="titlename">{{'RESUME' | translate}}</p>
-          <div class="resume-preview" translate="{{ 'CV_PIC' }}"></div>
-          <div class="right top-spaced" align="center">
-                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('en');" translate="BUTTON_TEXT_EN" ng-class="{true:'active'}[currentlanguage=='en']"></button>
-                  <button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('fr');" translate="BUTTON_TEXT_FR" ng-class="{true:'active'}[currentlanguage=='fr']"></button>
-                  <!--<button class="btn btn-large btn-primary obfuscated-link" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/></button>-->
+        </div>
+        <div class="col-sm-6">
+          <h3 align="left">Languages</h3><br>
+          <div class="col-sm-4">
+            <h4 class="resume-item-title"><b>Native</b></h4>
+            <div class="language-unit">
+              <img src="images/fr.png">
+              <span>French</span>
+            </div>
           </div>
-          <br>
-      </div>
-      <div>
-
-         
-        
-
-
+          <div class="col-sm-4">
+            <h4 class="resume-item-title"><b>Fluent</b></h4>
+            <div class="language-unit">
+              <img src="images/us.png">
+              <span>English</span>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="resume-item-title"><b>Advanced</b></h4>
+            <div class="language-unit">
+              <img src="images/de.png">
+              <span>German</span>
+            </div>
+          </div>
+          <div class="col-sm-4 rowbis">
+            <h4 class="resume-item-title"><b>Intermediate</b></h4>
+            <div class="language-unit">
+              <img src="images/es.png">
+              <span>Spanish</span>
+            </div>
+          </div>
+          <div class="col-sm-4 rowbis">
+            <h4 class="resume-item-title"><b>Beginner</b></h4>
+            <div class="language-unit">
+              <img src="images/ae.png">
+              <span>Arabic</span>
+            </div>
+          </div>
         </div>
       </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 align="left">Volunteer Experience</h3><br>
+          <div class="resume-items">
+            <h5><b>Human Appeal Ireland</b></h5>
+          </span>2018 - 2019</span>
+        </div>
+        <div class="resume-items">
+          <h5><b>Cork Simon Community</b></h5>
+        </span>2018 - 2019</span>
+      </div>
+      <div class="resume-items">
+        <h5><b>UNICEF France</b></h5>
+        <span>2016 - 2017</span>
+      </div>
+      <div class="resume-items">
+        <h5><b>Sorbonne pour l’Organisation des Nations Unies - SONU</b></h5>
+        <span>2015 - 2016</span>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <h3 align="left">Skills</h3><br>
+      <div class="col-sm-6">
+        <h4 class="resume-item-title"><b>General</b></h4>
+        <div class="skill-unit">
+          <span>Quality Engineering</span>
+        </div>
+        <div class="skill-unit">
+          <span>Program & Project Management</span>
+        </div>
+        <div class="skill-unit">
+          <span>Machine Learning & AI</span>
+        </div>
+        <div class="skill-unit">
+          <span>Software Design</span>
+        </div>
+        <div class="skill-unit">
+          <span>Team Leadership</span>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h4 class="resume-item-title"><b>Code</b></h4>
+        <div class="skill-unit">
+          <span>Ruby on Rails</span>
+        </div>
+        <div class="skill-unit">
+          <span>C++</span>
+        </div>
+        <div class="skill-unit">
+          <span>C</span>
+        </div>
+        <div class="skill-unit">
+          <span>Java</span>
+        </div>
+        <div class="skill-unit">
+          <span>AngularJS</span>
+        </div>
+        <div class="skill-unit">
+          <span>Python</span>
+        </div>
+        <div class="skill-unit">
+          <span>PHP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row" id="contact">
+    <div class="col-sm-6">
+      <h3 align="left">Contact</h3><br>
+      <div class="row"><ul class="contact">
+        <li><a target="blank" href="https://www.facebook.com/quentin.keunebroek"><i class="fa fa-facebook"></i></a></li>
+        <li><a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="blank" href="https://twitter.com/QKeunebroek"><i class="fa fa-twitter"></i></a></li>
+        <li><a target="blank" href="http://instagram.com/qkeunebr"><i class="fa fa-instagram"></i> </a></li>
+        <li><a target="blank" href="mailto:quentin.keunebroek@icloud.com"><i class="fa fa-apple"></i> </a></li>
+      </ul></div>
+    </div>
+  </div>
+</div>
+</div>
+<!--   <div class="container">
+<div class="row" id="projects">
+  <div class="row">
+    <div class="col-sm-8">
+      <h1 align="left">University Projects</h1><br>
+    </div>
+  </div>
+  <div class="row project-list">
+    <div class="col-sm-4 project-item">
+      <div class="col-sm-6 col-lg-12">
+        <img src="images/UTComputer.png" class="img-responsive">
+        <div class="project-img-overlay">
+          <p>Test</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 project-item">
+      <h1>Project 1</h1><br>
+    </div>
+    <div class="col-sm-4 project-item">
+      <h1>Project 1</h1><br>
+    </div>
+  </div>
+</div>
+</div> -->
+</div>
+<br><br>
+</div>
+<br>
+</div>
+</div>
 
-  </body>
-  </html>
-
+<script type="text/javascript">
+$("#about").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#presentation").offset().top -70},
+        'slow');
+});
+$("#cv").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#resume").offset().top -70},
+        'slow');
+});
+$("#email").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact").offset().top -70},
+        'slow');
+});
+</script>
+</body>
+</html>

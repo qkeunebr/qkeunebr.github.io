@@ -179,14 +179,124 @@ margin-top: 30px; } /** indication de la grandeur de la flèche +7px (valeur né
 
 }
 
+.rowbis{
+  margin-top:10px;
+}
+
+
+.language-unit{
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  position: relative;
+  font-family: SF Pro Text,Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  text-align: center;
+  padding: 2px;
+  margin-top:-5px;
+  margin-left:-5px;
+  width:80%;
+  max-width:100px;
+}
+
+.language-unit img{
+  margin-top:-4px;
+}
+
+.skill-unit{
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  position: relative;
+  font-family: SF Pro Text,Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  text-align: center;
+  padding: 2px;
+  margin-top:5px;
+  margin-left:-5px;
+  width:100%;
+}
+
+#aside{
+font-size: 17px;
+line-height: 1.47059;
+font-weight: 400;
+font-family: SF Pro Text,Helvetica,Arial,sans-serif;
+background-color: #f2f2f2;
+border-radius: 15px;
+box-sizing: border-box;
+padding: 40px 44px;
+position: relative;
+padding: 15px;
+text-align: center;
+font-size: 0.9em;
+}
+
+#aside h3{
+  margin-top:-1px;
+}
+
+.resume-item-title{
+  font-size:17px;
+  margin-bottom:20px;
+}
+
+
+#aside .social-links{
+  margin-left:auto;
+  margin-right :auto;
+  margin-top:0;
+ -webkit-padding-start: 0;
+}
+
+#aside .row{
+  padding-top:10px;
+  font-size:15px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.logo{
+  
+  width:300px;
+  margin:auto;
+  text-align:center;
+}
+
+
+#picture {
+max-width:100%;
+max-height:100%;
+border-radius: 10px;
+
+}
+
+.vl {
+  border-left: 2px dotted grey;
+  height: 20px;
+  margin-right: auto;
+  text-align:center;
+  margin-left:auto;
+  margin-top:5px;
+}
+
+
+
+.cv_picture{
+  width: 80px;
+  text-align: center;
+    margin-right: 0px;
+    padding-top: 0%;
+    background-color:grey;
+    transition: all 0.2s ease-in-out;
+}
+
 #image{
     text-align: center;
     padding: 15px; 
 }
 
 .paddedbis{
-    padding-left: 35px;
-  padding-right: 35px;  
+  padding-left: 30px;
+  padding-right: 30px;  
   font-size:1.6rem;
   font-weight: 400;
   letter-spacing: 0.02rem;
@@ -238,6 +348,11 @@ body{
       margin-top:15px;
 }
 
+.contact li{
+   display: inline;
+    color: rgba(255,255,255,.25);
+}
+
 .social-links li {
     display: inline;
     color: rgba(255,255,255,.25);
@@ -277,6 +392,14 @@ ul li a i {
     background:#dd4b39
 }
 
+.fa-apple{
+  background:black;
+}
+
+.row .centered{
+  text-align: center;
+}
+
 .fa-instagram{
   background: #c08d64;
 }
@@ -286,6 +409,19 @@ ul li a i:hover {
 
 .social-links a{
   font-size:25px;
+}
+
+.about a{
+  font-size:25px;
+}
+
+.contact a{
+  font-size:25px;
+}
+
+.contact{
+  margin-left:10px;
+  margin-top:-10px;
 }
 
 ul {
@@ -378,7 +514,7 @@ line-height: 20px;
     float: left;
     height: 50px;
     padding: 15px;
-    font-size: 14px;
+    font-size: 5px;
     line-height: 20px;
      margin-left:5px;
 }
@@ -405,7 +541,7 @@ line-height: 20px;
   background-color:transparent;
   font-weight: 800;
   letter-spacing: 0.05rem;
-  font-size:3.5rem;
+  font-size:2rem;
 }
 
 .navbar-fixed-top >a:hover 
@@ -454,6 +590,54 @@ line-height: 20px;
 
 .modal-footer a{
   color:#333;
+}
+
+.project-item{
+  font-size: 17px;
+line-height: 1.47059;
+font-weight: 400;
+font-family: SF Pro Text,Helvetica,Arial,sans-serif;
+background-color: #f2f2f2;
+border-radius: 15px;
+box-sizing: border-box;
+padding: 40px 44px;
+position: relative;
+padding: 15px;
+margin-right:15px;
+text-align: center;
+font-size: 0.9em;
+}
+
+.project-img-overlay{
+  position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+opacity: 0;
+-webkit-transition: all .5s;
+transition: all .5s;
+z-index: 2;
+-webkit-transform: translateY(10px);
+transform: translateY(10px);
+}
+
+.project-img{
+margin: 15px auto;
+position: relative;
+overflow: hidden;
+max-width: 100%;
+max-height: 100%;
+border-radius: 100px;
+object-fit: cover;
+}
+
+.project_list{
+position: relative;
+height: 170px;
+text-align: center;
 }
 
 .modal-content {
@@ -521,10 +705,28 @@ h2> small{
   height:50%;
 }
 
+#intro{
+  padding-right:60px;
+}
+
 .asideproject > p{
   text-align:center;
   font-size:14px;
   margin-bottom:10px;
+}
+
+#resume{
+  margin-bottom:30px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#projects{
+  margin-bottom:30px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #presentation{
