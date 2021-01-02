@@ -424,6 +424,18 @@ ul li a i:hover {
   margin-top:-10px;
 }
 
+.resume-items-offset{
+  margin-left:15px;
+}
+
+.verticalLine{
+  margin-left:10px;
+  background-image: linear-gradient(black 50%, rgba(255,255,255,0) 0%);
+  background-position: left;
+  background-size: 1px 20px;
+  background-repeat: repeat-y;
+}
+
 ul {
     display: block;
     list-style-type: disc;
