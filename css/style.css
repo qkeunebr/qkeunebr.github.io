@@ -358,10 +358,7 @@ body{
     color: rgba(255,255,255,.25);
 }
 
-ul {
-    overflow: auto;
-}
- 
+
 ul li {
     list-style-type: none;
     float: left;
@@ -413,6 +410,9 @@ ul li a i:hover {
 
 .about a{
   font-size:25px;
+  -webkit-padding-start: 0px;
+  margin-top:5px;
+
 }
 
 .contact a{
@@ -443,7 +443,6 @@ ul {
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    -webkit-padding-start: 20px;
 }
 
 .thumb {
