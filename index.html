@@ -27,6 +27,12 @@
             <a class="navbar-brand" href="#">quentinkeunebroek.fr</a>
           </div>
           <div>
+            <div c class="collapse navbar-collapse navbar-right">
+               <ul class="nav navbar-nav" >
+                <li><a id="home" href="">Home</a></li>
+                 <li><a id="about" href="">About</a></li>
+               </ul>
+             </div>
           </div>
         </div>
       </nav>
@@ -34,7 +40,7 @@
     <div class="text-responsive">
       <div>
         <!-- Hero-Unit -->
-        <div class="hero-unit">
+        <div class="hero-unit" id="hero-unit">
           <h1>Quentin Keunebroek</h1>
           <ul class="social-links">
             <li><a target="blank" href="http://fr.linkedin.com/pub/quentin-keunebroek/99/879/1b"><i class="fa fa-linkedin"></i></a></li>
@@ -107,6 +113,11 @@
 $("#about").click(function() {
 $('html,body').animate({
 scrollTop: $("#presentation").offset().top -70},
+'slow');
+});
+$("#home").click(function() {
+$('html,body').animate({
+scrollTop: $("#hero-unit").offset().top -70},
 'slow');
 });
 $("#cv").click(function() {
